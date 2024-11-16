@@ -6,8 +6,24 @@ Guerrier::Guerrier(const Guerrier& other)
     : Name(other.Name), Health(other.Health), Power(other.Power), Attack(other.Attack),
       Resistance(other.Resistance), Vitesse(other.Vitesse) {
     if (other.arme) {
-        arme = make_unique<Arme>(*other.arme);
+        arme =other.arme;
     }
+}
+
+Guerrier& Guerrier::operator=(const Guerrier& other) {
+    if (this == &other) {
+        return *this;
+    }
+    Name = other.Name;
+    Health = other.Health;
+    Power = other.Power;
+    Attack = other.Attack;
+    Resistance = other.Resistance;
+    Vitesse = other.Vitesse;
+    if (other.arme) {
+        arme = other.arme;
+    }
+    return *this;
 }
 
 float Guerrier::CalculatePower() {
@@ -35,39 +51,10 @@ void Guerrier::armAEffect() {
     Resistance = arme->affectResistance(Resistance);
     Vitesse = arme->affectVitesse(Vitesse);
 }
-
-void Guerrier::ChooseArm() {
-    int choice;
-    int repeat = 0;
-    cout << "Choose your weapon: " << endl;
-    cout << "1. Sword" << endl;
-    cout << "2. Shield" << endl;
-    cout << "3. Axe" << endl;
-    cout << "4. Magic wand" << endl;
-    cin >> choice;
-    do {
-        switch (choice) {
-            case 1:
-                arme = make_unique<Sword>("Sword");
-                break;
-            case 2:
-                arme = make_unique<Shield>("Shield");
-                break;
-            case 3:
-                arme = make_unique<Axe>("Axe");
-                break;
-            case 4:
-                arme = make_unique<Magic_wand>("Magic wand");
-                break;
-            default:
-                cout << "Invalid choice" << endl;
-                repeat = 1;
-                break;
-        }
-    }while (repeat == 0);
+void Guerrier::addArme(Arme* arme) {
+    this->arme = arme;
     armAEffect();
 }
-
 bool Guerrier::checkName(std::string name) {
     return Name == name;
 }

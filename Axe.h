@@ -14,5 +14,5 @@ class Axe : public Arme {
         float HealthEffect = HEALTH_EFFECT_AXE;
     
     public:
-        Axe();
+        Axe(string name);
 };

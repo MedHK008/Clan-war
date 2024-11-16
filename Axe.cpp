@@ -1,4 +1,4 @@
 
 #include "Axe.h"
 
-Axe::Axe() : Arme("Axe") {}
+Axe::Axe(string name) : Arme(name) {}

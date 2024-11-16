@@ -8,11 +8,14 @@ const int HEALTH_EFFECT_WAND = 2;
 
 class Magic_wand : public Arme {
     private:
-        float AttackEffect = ATTACK_EFFECT_WAND;
-        float ResistanceEffect = RESISTANCE_EFFECT_WAND;
-        float VitesseEffect = VITESSE_EFFECT_WAND;
-        float HealthEffect = HEALTH_EFFECT_WAND;
+        static int ATTACK_EFFECT;
+
+        static int RESISTANCE_EFFECT;
+
+        static int VITESSE_EFFECT;
+
+        static int HEALTH_EFFECT;
 
     public:
-        Magic_wand();
+        Magic_wand(string name);
 };

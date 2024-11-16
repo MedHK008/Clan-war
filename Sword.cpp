@@ -1,4 +1,4 @@
 
 #include "Sword.h"
 
-Sword::Sword() : Arme("Sword") {}
+Sword::Sword(string name) : Arme(name) {}

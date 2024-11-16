@@ -1,4 +1,4 @@
 
 #include "Shield.h"
 
-Shield::Shield() : Arme("Shield") {}
+Shield::Shield(string name) : Arme("Shield") {}

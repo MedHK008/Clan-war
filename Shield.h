@@ -13,5 +13,5 @@ class Shield : public Arme {
         float HealthEffect = HEALTH_EFFECT_SHIELD;
 
     public:
-        Shield();
+        Shield(string name);
 };
