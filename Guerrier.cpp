@@ -1,6 +1,6 @@
 #include "Guerrier.h"
 
-Guerrier::Guerrier(std::string name, float health, float attack, float resistance, float vitesse):Name(name), Health(health), Attack(attack), Resistance(resistance), Vitesse(vitesse) {}
+Guerrier::Guerrier(std::string name, float health, float attack, float vitesse):Name(name), Health(health), Attack(attack), Vitesse(vitesse) {}
 
 Guerrier::Guerrier(const Guerrier& other)
     : Name(other.Name), Health(other.Health), Power(other.Power), Attack(other.Attack),
@@ -27,13 +27,16 @@ Guerrier& Guerrier::operator=(const Guerrier& other) {
 }
 
 float Guerrier::CalculatePower() {
-    Power = (Health + Attack + Vitesse) * (Resistance + 1);
+    Power = (Health + Attack + Vitesse);
     return Power;
 }
 
 void Guerrier::getHit(float hit) {
+    cout << Name << " received " << hit << " damage." << endl;
     hit *= Resistance;
     Health -= hit;
+    cout << Name << " got hit with " << hit << " damage." << endl;
+    cout << "Health: " << Health << endl;
 }
 
 float Guerrier::Hit() {
@@ -41,10 +44,10 @@ float Guerrier::Hit() {
         cout << "You have no weapon" << endl;
         return 0;
     } else if (arme->isMagic()) {
-        Health += arme->affectHealth(Health);
+        Health = arme->affectHealth(Health);
     }
     std::cout << Name << " attacks with " << Attack << " damage." << std::endl;
-    return Attack;
+    return this->Attack;
 }
 
 void Guerrier::armAEffect() {

@@ -1,4 +1,3 @@
-
 #include "Sword.h"
 
-Sword::Sword(string name) : Arme(name) {}
+Sword::Sword(string name) : Arme(name, ATTACK_EFFECT_SWORD, RESISTANCE_EFFECT_SWORD, VITESSE_EFFECT_SWORD, HEALTH_EFFECT_SWORD) {}

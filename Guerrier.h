@@ -16,12 +16,12 @@ protected:
     float Health;
     float Power;
     float Attack;
-    float Resistance;
+    float Resistance = 1.0f;
     float Vitesse;
     Arme* arme;
     void armAEffect();
 public:
-    Guerrier(string name, float health, float attack, float resistance, float vitesse);
+    Guerrier(string name, float health, float attack, float vitesse);
     Guerrier(const Guerrier& guerrier);
     Guerrier& operator=(const Guerrier& other);
     std::string getName() const ;

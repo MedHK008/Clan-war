@@ -7,12 +7,12 @@ using namespace std;
 class Arme {
 protected:
     string Name;
-    float AttackEffect = 0;
-    float ResistanceEffect = 1;
-    float VitesseEffect = 0;
-    float HealthEffect = 0;
+    float AttackEffect;
+    float ResistanceEffect;
+    float VitesseEffect;
+    float HealthEffect;
 public:
-    Arme(string name);
+    Arme(string name, float attackEffect, float resistanceEffect, float vitesseEffect, float healthEffect);
     float affectHealth(float health);
     float affectAttack(float attack);
     float affectResistance(float resistance);

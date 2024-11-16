@@ -1,4 +1,3 @@
-
 #include "Shield.h"
 
-Shield::Shield(string name) : Arme("Shield") {}
+Shield::Shield(string name) : Arme(name, ATTACK_EFFECT_SHIELD, RESISTANCE_EFFECT_SHIELD, VITESSE_EFFECT_SHIELD, HEALTH_EFFECT_SHIELD) {}

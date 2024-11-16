@@ -1,7 +1,7 @@
-
 #include "Arme.h"
 
-Arme::Arme(string name):Name(name) {}
+Arme::Arme(string name, float attackEffect, float resistanceEffect, float vitesseEffect, float healthEffect)
+    : Name(name), AttackEffect(attackEffect), ResistanceEffect(resistanceEffect), VitesseEffect(vitesseEffect), HealthEffect(healthEffect) {}
 
 float Arme::affectHealth(float health) {
     return health + HealthEffect;

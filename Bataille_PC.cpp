@@ -51,8 +51,6 @@ void Bataille_PC::afficher() const
 	Bataille::afficher();
 }
 
-
-
 void Bataille_PC::creer_clan() {
     
 }
@@ -185,6 +183,7 @@ void Bataille_PC::jouer()
     int numGuerriers = creer_clan_user();
     creer_clan_Pc(numGuerriers);
 
+    float hit;
     while (clan1->getGuerriers().size() > 0 && clan2->getGuerriers().size() > 0) {
         int machineIndex = rand() % clan2->getGuerriers().size();
         Guerrier& machineGuerrier = clan2->getGuerrier(machineIndex);
@@ -201,15 +200,16 @@ void Bataille_PC::jouer()
         Guerrier& userGuerrier = clan1->getGuerrier(userIndex);
 
         while (!userGuerrier.checkHealth() && !machineGuerrier.checkHealth()) {
-            machineGuerrier.getHit(userGuerrier.Hit());
+            hit = userGuerrier.Hit();
+            machineGuerrier.getHit(hit);
 			sleep(1);
             if (machineGuerrier.checkHealth()) {
                 cout << machineGuerrier.getName() << " from machine clan is defeated!" << endl;
                 clan2->RemoveGuerrier(machineGuerrier.getName());
                 break;
             }
-
-            userGuerrier.getHit(machineGuerrier.Hit());
+            hit = machineGuerrier.Hit();
+            userGuerrier.getHit(hit);
 			sleep(1);
             if (userGuerrier.checkHealth()) {
                 cout << userGuerrier.getName() << " from your clan is defeated!" << endl;
