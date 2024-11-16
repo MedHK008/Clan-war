@@ -1,4 +1,8 @@
 #include "Arab.h"
 
-// Constructor
-Arab::Arab(float health, float attack, float resistance, float speed): Guerrier("Arab", health, attack, resistance, speed) {}
+const float ARAB_HEALTH = 85.0f;
+const float ARAB_ATTACK = 22.0f;
+const float ARAB_RESISTANCE = 1.0f;
+const float ARAB_SPEED = 14.0f;
+
+Arab::Arab(): Guerrier("Arab", ARAB_HEALTH, ARAB_ATTACK, ARAB_RESISTANCE, ARAB_SPEED) {}

@@ -10,4 +10,8 @@ protected:
     float HealthEffect = 0;
 public:
     Arme(std::string name);
+    int affectHealth(int health);
+    int affectAttack(int attack);
+    int affectResistance(int resistance);
+    int affectVitesse(int vitesse);
 };
