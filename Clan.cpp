@@ -24,6 +24,14 @@ void Clan::RemoveGuerrier(const string& name) {
     CalculatePower();
 }
 
+const vector<Guerrier>& Clan::getGuerriers() const {
+    return Guerriers;
+}
+
+Guerrier& Clan::getGuerrier(int index) {
+    return Guerriers.at(index);
+}
+
 void Clan::showClan() const {
     cout << "Clan Name: " << Name << endl;
     cout << "Clan Power: " << Power << endl;

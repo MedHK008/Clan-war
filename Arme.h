@@ -8,7 +8,7 @@ class Arme {
 protected:
     string Name;
     float AttackEffect = 0;
-    float ResistanceEffect = 0;
+    float ResistanceEffect = 1;
     float VitesseEffect = 0;
     float HealthEffect = 0;
 public:

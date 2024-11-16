@@ -1,8 +1,7 @@
 CMakeFiles/ClanWar.dir/Magic_wand.cpp.o: \
- /home/medhk/Desktop/Clan-war/Magic_wand.cpp /usr/include/stdc-predef.h \
- /home/medhk/Desktop/Clan-war/Magic_wand.h \
- /home/medhk/Desktop/Clan-war/Arme.h /usr/include/c++/13/iostream \
- /usr/include/c++/13/bits/requires_hosted.h \
+ /home/hkmed/Clan-war/Magic_wand.cpp /usr/include/stdc-predef.h \
+ /home/hkmed/Clan-war/Magic_wand.h /home/hkmed/Clan-war/Arme.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

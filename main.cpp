@@ -21,8 +21,6 @@ using namespace std;
 int main() 
 {
     Bataille_PC bataille;
-    bataille.choisirNiveau();
-    bataille.creer_clan_Pc();
     bataille.jouer();
     return 0;
 }

@@ -1,5 +1,5 @@
-CMakeFiles/ClanWar.dir/Arme.cpp.o: /home/medhk/Desktop/Clan-war/Arme.cpp \
- /usr/include/stdc-predef.h /home/medhk/Desktop/Clan-war/Arme.h \
+CMakeFiles/ClanWar.dir/Arme.cpp.o: /home/hkmed/Clan-war/Arme.cpp \
+ /usr/include/stdc-predef.h /home/hkmed/Clan-war/Arme.h \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

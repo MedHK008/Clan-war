@@ -18,4 +18,6 @@ public:
     void AddGuerrier(const Guerrier& guerrier);
     void RemoveGuerrier(const string& name);
     void showClan() const;
+    const vector<Guerrier>& getGuerriers() const;
+    Guerrier& getGuerrier(int index);
 };

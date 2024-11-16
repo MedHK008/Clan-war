@@ -43,6 +43,7 @@ float Guerrier::Hit() {
     } else if (arme->isMagic()) {
         Health += arme->affectHealth(Health);
     }
+    std::cout << Name << " attacks with " << Attack << " damage." << std::endl;
     return Attack;
 }
 
@@ -57,6 +58,14 @@ void Guerrier::addArme(Arme* arme) {
 }
 bool Guerrier::checkName(std::string name) {
     return Name == name;
+}
+
+bool Guerrier::checkHealth() {
+    return Health <= 0;
+}
+
+std::string Guerrier::getName() const {
+    return Name;
 }
 
 void Guerrier::showGuerrier() const {

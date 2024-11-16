@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ClanWar.dir/link.d"
   "CMakeFiles/ClanWar.dir/Arab.cpp.o"
   "CMakeFiles/ClanWar.dir/Arab.cpp.o.d"
   "CMakeFiles/ClanWar.dir/Arme.cpp.o"

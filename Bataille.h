@@ -7,8 +7,6 @@ class Bataille
 	private:
 		
 		int type_jeu;//0:vs pc 1: un vs un 
-		//clan *clan1;
-		//clan *clan2;
 
 protected:
     Clan* clan1;

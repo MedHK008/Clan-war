@@ -23,11 +23,13 @@ protected:
 public:
     Guerrier(string name, float health, float attack, float resistance, float vitesse);
     Guerrier(const Guerrier& guerrier);
-    Guerrier& operator=(const Guerrier& other); // Assignment operator
+    Guerrier& operator=(const Guerrier& other);
+    std::string getName() const ;
     float CalculatePower();
     void getHit(float hit);
     float Hit();
     void addArme(Arme* arme);
     bool checkName(string name);
+    bool checkHealth();
     void showGuerrier() const;
 };;

@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 #include "Bataille.h"
 enum Nv_difficulte
 {
@@ -19,7 +20,8 @@ public:
 	void afficher() const ;
 	void jouer();
 	void creer_clan() override;
-	void creer_clan_Pc();
+	void creer_clan_Pc(int);
+	int creer_clan_user();
 
 };
 
