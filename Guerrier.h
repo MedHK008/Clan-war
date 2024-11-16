@@ -1,3 +1,4 @@
+#pragma once
 #include <string>
 #include <iostream>
 #include <memory>
@@ -21,6 +22,7 @@ protected:
     void armAEffect();
 public:
     Guerrier(string name, float health, float attack, float resistance, float vitesse);
+    Guerrier(const Guerrier& guerrier);
     float CalculatePower();
     void getHit(float hit);
     float Hit();

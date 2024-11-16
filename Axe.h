@@ -1,4 +1,4 @@
-
+#pragma once
 #include "Arme.h"
 
 const int ATTACK_EFFECT_AXE = 25;

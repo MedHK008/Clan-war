@@ -2,6 +2,14 @@
 
 Guerrier::Guerrier(std::string name, float health, float attack, float resistance, float vitesse):Name(name), Health(health), Attack(attack), Resistance(resistance), Vitesse(vitesse) {}
 
+Guerrier::Guerrier(const Guerrier& other)
+    : Name(other.Name), Health(other.Health), Power(other.Power), Attack(other.Attack),
+      Resistance(other.Resistance), Vitesse(other.Vitesse) {
+    if (other.arme) {
+        arme = make_unique<Arme>(*other.arme);
+    }
+}
+
 float Guerrier::CalculatePower() {
     Power = (Health + Attack + Vitesse) * (Resistance + 1);
     return Power;

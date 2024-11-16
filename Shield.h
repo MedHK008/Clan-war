@@ -1,4 +1,4 @@
-
+#pragma once
 #include "Arme.h"
 const int ATTACK_EFFECT_SHIELD = -5;
 const int RESISTANCE_EFFECT_SHIELD = 0.3;

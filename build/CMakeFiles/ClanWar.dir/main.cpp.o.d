@@ -204,4 +204,8 @@ CMakeFiles/ClanWar.dir/main.cpp.o: /home/medhk/Desktop/Clan-war/main.cpp \
  /home/medhk/Desktop/Clan-war/Arab.h \
  /home/medhk/Desktop/Clan-war/Viking.h \
  /home/medhk/Desktop/Clan-war/Pirate.h \
- /home/medhk/Desktop/Clan-war/Persian.h
+ /home/medhk/Desktop/Clan-war/Persian.h \
+ /home/medhk/Desktop/Clan-war/Clan.h /usr/include/c++/13/vector \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc
