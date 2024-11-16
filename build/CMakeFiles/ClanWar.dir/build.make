@@ -240,6 +240,48 @@ CMakeFiles/ClanWar.dir/Viking.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Viking.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Viking.cpp -o CMakeFiles/ClanWar.dir/Viking.cpp.s
 
+CMakeFiles/ClanWar.dir/Bataille.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/Bataille.cpp.o: /home/medhk/Desktop/Clan-war/Bataille.cpp
+CMakeFiles/ClanWar.dir/Bataille.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ClanWar.dir/Bataille.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Bataille.cpp.o -MF CMakeFiles/ClanWar.dir/Bataille.cpp.o.d -o CMakeFiles/ClanWar.dir/Bataille.cpp.o -c /home/medhk/Desktop/Clan-war/Bataille.cpp
+
+CMakeFiles/ClanWar.dir/Bataille.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Bataille.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Bataille.cpp > CMakeFiles/ClanWar.dir/Bataille.cpp.i
+
+CMakeFiles/ClanWar.dir/Bataille.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Bataille.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Bataille.cpp -o CMakeFiles/ClanWar.dir/Bataille.cpp.s
+
+CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o: /home/medhk/Desktop/Clan-war/Bataille_PC.cpp
+CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o -MF CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o.d -o CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o -c /home/medhk/Desktop/Clan-war/Bataille_PC.cpp
+
+CMakeFiles/ClanWar.dir/Bataille_PC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Bataille_PC.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Bataille_PC.cpp > CMakeFiles/ClanWar.dir/Bataille_PC.cpp.i
+
+CMakeFiles/ClanWar.dir/Bataille_PC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Bataille_PC.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Bataille_PC.cpp -o CMakeFiles/ClanWar.dir/Bataille_PC.cpp.s
+
+CMakeFiles/ClanWar.dir/Bataille_user.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/Bataille_user.cpp.o: /home/medhk/Desktop/Clan-war/Bataille_user.cpp
+CMakeFiles/ClanWar.dir/Bataille_user.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ClanWar.dir/Bataille_user.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Bataille_user.cpp.o -MF CMakeFiles/ClanWar.dir/Bataille_user.cpp.o.d -o CMakeFiles/ClanWar.dir/Bataille_user.cpp.o -c /home/medhk/Desktop/Clan-war/Bataille_user.cpp
+
+CMakeFiles/ClanWar.dir/Bataille_user.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Bataille_user.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Bataille_user.cpp > CMakeFiles/ClanWar.dir/Bataille_user.cpp.i
+
+CMakeFiles/ClanWar.dir/Bataille_user.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Bataille_user.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Bataille_user.cpp -o CMakeFiles/ClanWar.dir/Bataille_user.cpp.s
+
 # Object files for target ClanWar
 ClanWar_OBJECTS = \
 "CMakeFiles/ClanWar.dir/main.cpp.o" \
@@ -253,7 +295,10 @@ ClanWar_OBJECTS = \
 "CMakeFiles/ClanWar.dir/Arab.cpp.o" \
 "CMakeFiles/ClanWar.dir/Persian.cpp.o" \
 "CMakeFiles/ClanWar.dir/Pirate.cpp.o" \
-"CMakeFiles/ClanWar.dir/Viking.cpp.o"
+"CMakeFiles/ClanWar.dir/Viking.cpp.o" \
+"CMakeFiles/ClanWar.dir/Bataille.cpp.o" \
+"CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o" \
+"CMakeFiles/ClanWar.dir/Bataille_user.cpp.o"
 
 # External object files for target ClanWar
 ClanWar_EXTERNAL_OBJECTS =
@@ -270,10 +315,13 @@ ClanWar: CMakeFiles/ClanWar.dir/Arab.cpp.o
 ClanWar: CMakeFiles/ClanWar.dir/Persian.cpp.o
 ClanWar: CMakeFiles/ClanWar.dir/Pirate.cpp.o
 ClanWar: CMakeFiles/ClanWar.dir/Viking.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/Bataille.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/Bataille_user.cpp.o
 ClanWar: CMakeFiles/ClanWar.dir/build.make
 ClanWar: CMakeFiles/ClanWar.dir/compiler_depend.ts
 ClanWar: CMakeFiles/ClanWar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ClanWar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable ClanWar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ClanWar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -14,6 +14,9 @@ ClanWar: \
   CMakeFiles/ClanWar.dir/Persian.cpp.o \
   CMakeFiles/ClanWar.dir/Pirate.cpp.o \
   CMakeFiles/ClanWar.dir/Viking.cpp.o \
+  CMakeFiles/ClanWar.dir/Bataille.cpp.o \
+  CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o \
+  CMakeFiles/ClanWar.dir/Bataille_user.cpp.o \
   /usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/libm.so \
@@ -72,6 +75,12 @@ CMakeFiles/ClanWar.dir/Persian.cpp.o:
 CMakeFiles/ClanWar.dir/Pirate.cpp.o:
 
 CMakeFiles/ClanWar.dir/Viking.cpp.o:
+
+CMakeFiles/ClanWar.dir/Bataille.cpp.o:
+
+CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o:
+
+CMakeFiles/ClanWar.dir/Bataille_user.cpp.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/libstdc++.so:
 

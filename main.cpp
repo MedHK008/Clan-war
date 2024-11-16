@@ -11,6 +11,9 @@
 #include "Axe.h"
 #include "Sword.h"
 #include "Clan.h"
+#include "Bataille.h"
+#include "Bataille_PC.h"
+#include "Bataille_user.h"
 
 
 using namespace std;
@@ -22,6 +25,10 @@ int main()
     Arme *arme1 = new Sword("Sword1");
     guerrier1->addArme(arme1);
     clan1.AddGuerrier(*guerrier1);
+
+    Guerrier *guerrier2 = new Arab();
+    guerrier2->addArme(arme1);
+    clan1.AddGuerrier(*guerrier2);
 
     clan1.showClan();
 }

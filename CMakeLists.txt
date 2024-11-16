@@ -16,4 +16,8 @@ add_executable(
         Persian.h Persian.cpp
         Pirate.h Pirate.cpp
         Viking.h Viking.cpp
+
+        Bataille.h Bataille.cpp
+        Bataille_PC.h Bataille_PC.cpp
+        Bataille_user.h Bataille_user.cpp
 )

@@ -201,6 +201,78 @@ Axe.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Axe.cpp.s
 .PHONY : Axe.cpp.s
 
+Bataille.o: Bataille.cpp.o
+.PHONY : Bataille.o
+
+# target to build an object file
+Bataille.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille.cpp.o
+.PHONY : Bataille.cpp.o
+
+Bataille.i: Bataille.cpp.i
+.PHONY : Bataille.i
+
+# target to preprocess a source file
+Bataille.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille.cpp.i
+.PHONY : Bataille.cpp.i
+
+Bataille.s: Bataille.cpp.s
+.PHONY : Bataille.s
+
+# target to generate assembly for a file
+Bataille.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille.cpp.s
+.PHONY : Bataille.cpp.s
+
+Bataille_PC.o: Bataille_PC.cpp.o
+.PHONY : Bataille_PC.o
+
+# target to build an object file
+Bataille_PC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o
+.PHONY : Bataille_PC.cpp.o
+
+Bataille_PC.i: Bataille_PC.cpp.i
+.PHONY : Bataille_PC.i
+
+# target to preprocess a source file
+Bataille_PC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille_PC.cpp.i
+.PHONY : Bataille_PC.cpp.i
+
+Bataille_PC.s: Bataille_PC.cpp.s
+.PHONY : Bataille_PC.s
+
+# target to generate assembly for a file
+Bataille_PC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille_PC.cpp.s
+.PHONY : Bataille_PC.cpp.s
+
+Bataille_user.o: Bataille_user.cpp.o
+.PHONY : Bataille_user.o
+
+# target to build an object file
+Bataille_user.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille_user.cpp.o
+.PHONY : Bataille_user.cpp.o
+
+Bataille_user.i: Bataille_user.cpp.i
+.PHONY : Bataille_user.i
+
+# target to preprocess a source file
+Bataille_user.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille_user.cpp.i
+.PHONY : Bataille_user.cpp.i
+
+Bataille_user.s: Bataille_user.cpp.s
+.PHONY : Bataille_user.s
+
+# target to generate assembly for a file
+Bataille_user.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille_user.cpp.s
+.PHONY : Bataille_user.cpp.s
+
 Clan.o: Clan.cpp.o
 .PHONY : Clan.o
 
@@ -435,6 +507,15 @@ help:
 	@echo "... Axe.o"
 	@echo "... Axe.i"
 	@echo "... Axe.s"
+	@echo "... Bataille.o"
+	@echo "... Bataille.i"
+	@echo "... Bataille.s"
+	@echo "... Bataille_PC.o"
+	@echo "... Bataille_PC.i"
+	@echo "... Bataille_PC.s"
+	@echo "... Bataille_user.o"
+	@echo "... Bataille_user.i"
+	@echo "... Bataille_user.s"
 	@echo "... Clan.o"
 	@echo "... Clan.i"
 	@echo "... Clan.s"
