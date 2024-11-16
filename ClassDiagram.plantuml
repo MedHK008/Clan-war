@@ -1,0 +1,92 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+abstract class Guerrier{
+#String Name
+#Float Health
+#Float Power
+#Float Attack
+#Float Resistance
+#Float Vitesse 
+#Float Power
++Guerrier()
++CalculatePower()
++getHit(int hit)
++Hit()
++ChooseArm()
+}
+
+
+class Viking extends Guerrier{
+}
+
+class Arab extends Guerrier{
+}
+
+class Pirate extends Guerrier{
+}
+
+class Persian extends Guerrier{
+}
+
+abstract class Arme {
+#Sting Name
+#Float AttackEffect
+#Float ResistanceEffect
+#Float VitesseEffect
++Arme()
+}
+
+class Shield extends Arme {
+}
+
+class Sword extends Arme {
+}
+
+class Axe extends Arme {
+}
+
+class Magic_wand extends Arme {
+
+}
+
+enum Difficulty{
+  EASY
+  INTERMEDIATE
+  HARD
+}
+
+
+class Clan {
+-Sting Name
+-List<Guerrier> Guerriers
+-Double Power
++Clan()
++CalculatePower()
++AddGuerrier()
++RemoveGuerrier()
++showClan()
+}
+
+abstract class Bataille{
+-Bool typeJeu
+-List<Clan> clans
++Bataille()
++addClan(Clan)
++readClan()
++Simulation()
+}
+
+class Bataille2Perso extends Bataille{
+
+}
+
+class BatailleVSpc extends Bataille{
+-Difficulty NiveauDifficulte
+}
+
+Guerrier "1" --* "*" Clan 
+Guerrier"*" o-- "1" Arme 
+Bataille "*" -- "2" Clan
+@enduml
