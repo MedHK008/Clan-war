@@ -1,4 +1,4 @@
-@startuml
+@startuml ClassDiagram
 
 skinparam classAttributeIconSize 0
 
@@ -9,12 +9,12 @@ abstract class Guerrier{
 #Float Attack
 #Float Resistance
 #Float Vitesse 
-#Float Power
 +Guerrier()
 +CalculatePower()
 +getHit(int hit)
 +Hit()
 +ChooseArm()
+#armEffect()
 }
 
 
@@ -31,11 +31,15 @@ class Persian extends Guerrier{
 }
 
 abstract class Arme {
-#Sting Name
-#Float AttackEffect
+#String Name
 #Float ResistanceEffect
 #Float VitesseEffect
 +Arme()
++Bool isMagic()
++float affectHealth(float health);
++float affectAttack(float attack);
++float affectResistance(float resistance);
++float affectVitesse(float vitesse);
 }
 
 class Shield extends Arme {
@@ -59,7 +63,7 @@ enum Difficulty{
 
 
 class Clan {
--Sting Name
+-String Name
 -List<Guerrier> Guerriers
 -Double Power
 +Clan()
@@ -70,7 +74,7 @@ class Clan {
 }
 
 abstract class Bataille{
--Bool typeJeu
+-Boolean typeJeu
 -List<Clan> clans
 +Bataille()
 +addClan(Clan)
@@ -89,4 +93,5 @@ class BatailleVSpc extends Bataille{
 Guerrier "1" --* "*" Clan 
 Guerrier"*" o-- "1" Arme 
 Bataille "*" -- "2" Clan
+
 @enduml

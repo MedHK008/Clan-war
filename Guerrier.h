@@ -21,8 +21,10 @@ protected:
     void armAEffect();
 public:
     Guerrier(string name, float health, float attack, float resistance, float vitesse);
-    void CalculatePower();
+    float CalculatePower();
     void getHit(float hit);
     float Hit();
     void ChooseArm();
+    bool checkName(string name);
+    void showGuerrier() const;
 };;

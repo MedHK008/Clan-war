@@ -2,8 +2,9 @@
 
 Guerrier::Guerrier(std::string name, float health, float attack, float resistance, float vitesse):Name(name), Health(health), Attack(attack), Resistance(resistance), Vitesse(vitesse) {}
 
-void Guerrier::CalculatePower() {
+float Guerrier::CalculatePower() {
     Power = (Health + Attack + Vitesse) * (Resistance + 1);
+    return Power;
 }
 
 void Guerrier::getHit(float hit) {
@@ -12,7 +13,13 @@ void Guerrier::getHit(float hit) {
 }
 
 float Guerrier::Hit() {
-    return Power;
+    if(arme == nullptr) {
+        cout << "You have no weapon" << endl;
+        return 0;
+    } else if (arme->isMagic()) {
+        Health += arme->affectHealth(Health);
+    }
+    return Attack;
 }
 
 void Guerrier::armAEffect() {
@@ -53,3 +60,11 @@ void Guerrier::ChooseArm() {
     armAEffect();
 }
 
+bool Guerrier::checkName(std::string name) {
+    return Name == name;
+}
+
+void Guerrier::showGuerrier() const {
+    cout << "Name: " << Name << endl;
+    arme->showArme();
+}
