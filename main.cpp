@@ -20,15 +20,9 @@ using namespace std;
 
 int main() 
 {
-    Clan clan1("Clan1");
-    Guerrier *guerrier1 = new Viking();
-    Arme *arme1 = new Sword("Sword1");
-    guerrier1->addArme(arme1);
-    clan1.AddGuerrier(*guerrier1);
-
-    Guerrier *guerrier2 = new Arab();
-    guerrier2->addArme(arme1);
-    clan1.AddGuerrier(*guerrier2);
-
-    clan1.showClan();
+    Bataille_PC bataille;
+    bataille.choisirNiveau();
+    bataille.creer_clan_Pc();
+    bataille.jouer();
+    return 0;
 }

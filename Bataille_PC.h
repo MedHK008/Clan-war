@@ -18,6 +18,7 @@ public:
 	void choisirNiveau();
 	void afficher() const ;
 	void jouer();
+	void creer_clan() override;
 	void creer_clan_Pc();
 
 };
