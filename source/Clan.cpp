@@ -47,5 +47,6 @@ void Clan::showClan() const {
     for (const auto& guerrier : Guerriers) {
         cout << i << ": ";
         guerrier.showGuerrier();
+        i++;
     }
 }

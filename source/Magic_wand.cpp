@@ -1,3 +1,3 @@
 #include "Magic_wand.h"
 
-Magic_wand::Magic_wand(string name) : Arme(name, -5.0, 0.1, 5.0, 2.0) {}
+Magic_wand::Magic_wand(string name) : Arme(name, ATTACK_EFFECT_MAGIC_WAND, RESISTANCE_EFFECT_MAGIC_WAND, VITESSE_EFFECT_MAGIC_WAND, HEALTH_EFFECT_MAGIC_WAND) {}

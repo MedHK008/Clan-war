@@ -76,18 +76,18 @@ std::string Guerrier::getName() const {
 void Guerrier::DifficultyEffect(Nv_difficulte Niveau) {
     switch (Niveau) {
         case facile:
-            Health *= 0.8;
-            Attack *= 0.8;
-            Resistance *= 1.2;
-            Vitesse *= 0.8;
+            Health *= 0.8f;
+            Attack *= 0.8f;
+            Resistance *= 1.2f;
+            Vitesse *= 0.8f;
             break;
         case moyen:
             break;
         case difficile:
-            Health *= 1.2;
-            Attack *= 1.2;
-            Resistance *= 0.8;
-            Vitesse *= 1.2;
+            Health *= 1.2f;
+            Attack *= 1.2f;
+            Resistance *= 0.8f;
+            Vitesse *= 1.2f;
             break;
     }
 }

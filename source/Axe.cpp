@@ -1,3 +1,3 @@
 #include "Axe.h"
 
-Axe::Axe(string name) : Arme(name, 25.0f, 0.1f, -10.0f, 0.0f) {}
+Axe::Axe(string name) : Arme(name, ATTACK_EFFECT_AXE, RESISTANCE_EFFECT_AXE, VITESSE_EFFECT_AXE, HEALTH_EFFECT_AXE) {}
