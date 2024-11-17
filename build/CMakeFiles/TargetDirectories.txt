@@ -1,3 +1,0 @@
-/home/medhk/Desktop/Clan-war/build/CMakeFiles/ClanWar.dir
-/home/medhk/Desktop/Clan-war/build/CMakeFiles/edit_cache.dir
-/home/medhk/Desktop/Clan-war/build/CMakeFiles/rebuild_cache.dir
