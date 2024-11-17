@@ -1,6 +1,7 @@
-CMakeFiles/ClanWar.dir/Persian.cpp.o: /home/hkmed/Clan-war/Persian.cpp \
- /usr/include/stdc-predef.h /home/hkmed/Clan-war/Persian.h \
- /home/hkmed/Clan-war/Guerrier.h /usr/include/c++/13/string \
+CMakeFiles/ClanWar.dir/Persian.cpp.o: \
+ /home/medhk/Desktop/Clan-war/Persian.cpp /usr/include/stdc-predef.h \
+ /home/medhk/Desktop/Clan-war/Persian.h \
+ /home/medhk/Desktop/Clan-war/Guerrier.h /usr/include/c++/13/string \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -199,7 +200,8 @@ CMakeFiles/ClanWar.dir/Persian.cpp.o: /home/hkmed/Clan-war/Persian.cpp \
  /usr/include/c++/13/bits/ranges_uninitialized.h \
  /usr/include/c++/13/bits/ranges_algobase.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h /home/hkmed/Clan-war/Arme.h \
- /home/hkmed/Clan-war/Sword.h /usr/include/c++/13/utility \
- /usr/include/c++/13/bits/stl_relops.h /home/hkmed/Clan-war/Shield.h \
- /home/hkmed/Clan-war/Axe.h /home/hkmed/Clan-war/Magic_wand.h
+ /usr/include/c++/13/pstl/execution_defs.h \
+ /home/medhk/Desktop/Clan-war/Arme.h /home/medhk/Desktop/Clan-war/Sword.h \
+ /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
+ /home/medhk/Desktop/Clan-war/Shield.h /home/medhk/Desktop/Clan-war/Axe.h \
+ /home/medhk/Desktop/Clan-war/Magic_wand.h

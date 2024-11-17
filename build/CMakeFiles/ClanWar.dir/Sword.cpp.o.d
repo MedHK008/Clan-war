@@ -1,6 +1,6 @@
-CMakeFiles/ClanWar.dir/Sword.cpp.o: /home/hkmed/Clan-war/Sword.cpp \
- /usr/include/stdc-predef.h /home/hkmed/Clan-war/Sword.h \
- /usr/include/c++/13/utility \
+CMakeFiles/ClanWar.dir/Sword.cpp.o: \
+ /home/medhk/Desktop/Clan-war/Sword.cpp /usr/include/stdc-predef.h \
+ /home/medhk/Desktop/Clan-war/Sword.h /usr/include/c++/13/utility \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -19,10 +19,11 @@ CMakeFiles/ClanWar.dir/Sword.cpp.o: /home/hkmed/Clan-war/Sword.cpp \
  /usr/include/c++/13/initializer_list \
  /usr/include/c++/13/ext/numeric_traits.h \
  /usr/include/c++/13/bits/cpp_type_traits.h \
- /usr/include/c++/13/ext/type_traits.h /home/hkmed/Clan-war/Arme.h \
- /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
- /usr/include/c++/13/ostream /usr/include/c++/13/ios \
- /usr/include/c++/13/iosfwd /usr/include/c++/13/bits/stringfwd.h \
+ /usr/include/c++/13/ext/type_traits.h \
+ /home/medhk/Desktop/Clan-war/Arme.h /usr/include/c++/13/iostream \
+ /usr/include/c++/13/bits/requires_hosted.h /usr/include/c++/13/ostream \
+ /usr/include/c++/13/ios /usr/include/c++/13/iosfwd \
+ /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/memoryfwd.h /usr/include/c++/13/bits/postypes.h \
  /usr/include/c++/13/cwchar /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \

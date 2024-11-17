@@ -1,6 +1,6 @@
-CMakeFiles/ClanWar.dir/Axe.cpp.o: /home/hkmed/Clan-war/Axe.cpp \
- /usr/include/stdc-predef.h /home/hkmed/Clan-war/Axe.h \
- /home/hkmed/Clan-war/Arme.h /usr/include/c++/13/iostream \
+CMakeFiles/ClanWar.dir/Axe.cpp.o: /home/medhk/Desktop/Clan-war/Axe.cpp \
+ /usr/include/stdc-predef.h /home/medhk/Desktop/Clan-war/Axe.h \
+ /home/medhk/Desktop/Clan-war/Arme.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
