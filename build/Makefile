@@ -129,342 +129,6 @@ ClanWar/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/build
 .PHONY : ClanWar/fast
 
-Arab.o: Arab.cpp.o
-.PHONY : Arab.o
-
-# target to build an object file
-Arab.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Arab.cpp.o
-.PHONY : Arab.cpp.o
-
-Arab.i: Arab.cpp.i
-.PHONY : Arab.i
-
-# target to preprocess a source file
-Arab.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Arab.cpp.i
-.PHONY : Arab.cpp.i
-
-Arab.s: Arab.cpp.s
-.PHONY : Arab.s
-
-# target to generate assembly for a file
-Arab.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Arab.cpp.s
-.PHONY : Arab.cpp.s
-
-Arme.o: Arme.cpp.o
-.PHONY : Arme.o
-
-# target to build an object file
-Arme.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Arme.cpp.o
-.PHONY : Arme.cpp.o
-
-Arme.i: Arme.cpp.i
-.PHONY : Arme.i
-
-# target to preprocess a source file
-Arme.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Arme.cpp.i
-.PHONY : Arme.cpp.i
-
-Arme.s: Arme.cpp.s
-.PHONY : Arme.s
-
-# target to generate assembly for a file
-Arme.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Arme.cpp.s
-.PHONY : Arme.cpp.s
-
-Axe.o: Axe.cpp.o
-.PHONY : Axe.o
-
-# target to build an object file
-Axe.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Axe.cpp.o
-.PHONY : Axe.cpp.o
-
-Axe.i: Axe.cpp.i
-.PHONY : Axe.i
-
-# target to preprocess a source file
-Axe.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Axe.cpp.i
-.PHONY : Axe.cpp.i
-
-Axe.s: Axe.cpp.s
-.PHONY : Axe.s
-
-# target to generate assembly for a file
-Axe.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Axe.cpp.s
-.PHONY : Axe.cpp.s
-
-Bataille.o: Bataille.cpp.o
-.PHONY : Bataille.o
-
-# target to build an object file
-Bataille.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille.cpp.o
-.PHONY : Bataille.cpp.o
-
-Bataille.i: Bataille.cpp.i
-.PHONY : Bataille.i
-
-# target to preprocess a source file
-Bataille.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille.cpp.i
-.PHONY : Bataille.cpp.i
-
-Bataille.s: Bataille.cpp.s
-.PHONY : Bataille.s
-
-# target to generate assembly for a file
-Bataille.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille.cpp.s
-.PHONY : Bataille.cpp.s
-
-Bataille_PC.o: Bataille_PC.cpp.o
-.PHONY : Bataille_PC.o
-
-# target to build an object file
-Bataille_PC.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o
-.PHONY : Bataille_PC.cpp.o
-
-Bataille_PC.i: Bataille_PC.cpp.i
-.PHONY : Bataille_PC.i
-
-# target to preprocess a source file
-Bataille_PC.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille_PC.cpp.i
-.PHONY : Bataille_PC.cpp.i
-
-Bataille_PC.s: Bataille_PC.cpp.s
-.PHONY : Bataille_PC.s
-
-# target to generate assembly for a file
-Bataille_PC.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille_PC.cpp.s
-.PHONY : Bataille_PC.cpp.s
-
-Bataille_user.o: Bataille_user.cpp.o
-.PHONY : Bataille_user.o
-
-# target to build an object file
-Bataille_user.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille_user.cpp.o
-.PHONY : Bataille_user.cpp.o
-
-Bataille_user.i: Bataille_user.cpp.i
-.PHONY : Bataille_user.i
-
-# target to preprocess a source file
-Bataille_user.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille_user.cpp.i
-.PHONY : Bataille_user.cpp.i
-
-Bataille_user.s: Bataille_user.cpp.s
-.PHONY : Bataille_user.s
-
-# target to generate assembly for a file
-Bataille_user.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Bataille_user.cpp.s
-.PHONY : Bataille_user.cpp.s
-
-Clan.o: Clan.cpp.o
-.PHONY : Clan.o
-
-# target to build an object file
-Clan.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Clan.cpp.o
-.PHONY : Clan.cpp.o
-
-Clan.i: Clan.cpp.i
-.PHONY : Clan.i
-
-# target to preprocess a source file
-Clan.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Clan.cpp.i
-.PHONY : Clan.cpp.i
-
-Clan.s: Clan.cpp.s
-.PHONY : Clan.s
-
-# target to generate assembly for a file
-Clan.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Clan.cpp.s
-.PHONY : Clan.cpp.s
-
-Guerrier.o: Guerrier.cpp.o
-.PHONY : Guerrier.o
-
-# target to build an object file
-Guerrier.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Guerrier.cpp.o
-.PHONY : Guerrier.cpp.o
-
-Guerrier.i: Guerrier.cpp.i
-.PHONY : Guerrier.i
-
-# target to preprocess a source file
-Guerrier.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Guerrier.cpp.i
-.PHONY : Guerrier.cpp.i
-
-Guerrier.s: Guerrier.cpp.s
-.PHONY : Guerrier.s
-
-# target to generate assembly for a file
-Guerrier.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Guerrier.cpp.s
-.PHONY : Guerrier.cpp.s
-
-Magic_wand.o: Magic_wand.cpp.o
-.PHONY : Magic_wand.o
-
-# target to build an object file
-Magic_wand.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Magic_wand.cpp.o
-.PHONY : Magic_wand.cpp.o
-
-Magic_wand.i: Magic_wand.cpp.i
-.PHONY : Magic_wand.i
-
-# target to preprocess a source file
-Magic_wand.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Magic_wand.cpp.i
-.PHONY : Magic_wand.cpp.i
-
-Magic_wand.s: Magic_wand.cpp.s
-.PHONY : Magic_wand.s
-
-# target to generate assembly for a file
-Magic_wand.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Magic_wand.cpp.s
-.PHONY : Magic_wand.cpp.s
-
-Persian.o: Persian.cpp.o
-.PHONY : Persian.o
-
-# target to build an object file
-Persian.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Persian.cpp.o
-.PHONY : Persian.cpp.o
-
-Persian.i: Persian.cpp.i
-.PHONY : Persian.i
-
-# target to preprocess a source file
-Persian.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Persian.cpp.i
-.PHONY : Persian.cpp.i
-
-Persian.s: Persian.cpp.s
-.PHONY : Persian.s
-
-# target to generate assembly for a file
-Persian.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Persian.cpp.s
-.PHONY : Persian.cpp.s
-
-Pirate.o: Pirate.cpp.o
-.PHONY : Pirate.o
-
-# target to build an object file
-Pirate.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Pirate.cpp.o
-.PHONY : Pirate.cpp.o
-
-Pirate.i: Pirate.cpp.i
-.PHONY : Pirate.i
-
-# target to preprocess a source file
-Pirate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Pirate.cpp.i
-.PHONY : Pirate.cpp.i
-
-Pirate.s: Pirate.cpp.s
-.PHONY : Pirate.s
-
-# target to generate assembly for a file
-Pirate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Pirate.cpp.s
-.PHONY : Pirate.cpp.s
-
-Shield.o: Shield.cpp.o
-.PHONY : Shield.o
-
-# target to build an object file
-Shield.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Shield.cpp.o
-.PHONY : Shield.cpp.o
-
-Shield.i: Shield.cpp.i
-.PHONY : Shield.i
-
-# target to preprocess a source file
-Shield.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Shield.cpp.i
-.PHONY : Shield.cpp.i
-
-Shield.s: Shield.cpp.s
-.PHONY : Shield.s
-
-# target to generate assembly for a file
-Shield.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Shield.cpp.s
-.PHONY : Shield.cpp.s
-
-Sword.o: Sword.cpp.o
-.PHONY : Sword.o
-
-# target to build an object file
-Sword.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Sword.cpp.o
-.PHONY : Sword.cpp.o
-
-Sword.i: Sword.cpp.i
-.PHONY : Sword.i
-
-# target to preprocess a source file
-Sword.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Sword.cpp.i
-.PHONY : Sword.cpp.i
-
-Sword.s: Sword.cpp.s
-.PHONY : Sword.s
-
-# target to generate assembly for a file
-Sword.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Sword.cpp.s
-.PHONY : Sword.cpp.s
-
-Viking.o: Viking.cpp.o
-.PHONY : Viking.o
-
-# target to build an object file
-Viking.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Viking.cpp.o
-.PHONY : Viking.cpp.o
-
-Viking.i: Viking.cpp.i
-.PHONY : Viking.i
-
-# target to preprocess a source file
-Viking.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Viking.cpp.i
-.PHONY : Viking.cpp.i
-
-Viking.s: Viking.cpp.s
-.PHONY : Viking.s
-
-# target to generate assembly for a file
-Viking.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/Viking.cpp.s
-.PHONY : Viking.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -489,6 +153,366 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+source/Arab.o: source/Arab.cpp.o
+.PHONY : source/Arab.o
+
+# target to build an object file
+source/Arab.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Arab.cpp.o
+.PHONY : source/Arab.cpp.o
+
+source/Arab.i: source/Arab.cpp.i
+.PHONY : source/Arab.i
+
+# target to preprocess a source file
+source/Arab.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Arab.cpp.i
+.PHONY : source/Arab.cpp.i
+
+source/Arab.s: source/Arab.cpp.s
+.PHONY : source/Arab.s
+
+# target to generate assembly for a file
+source/Arab.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Arab.cpp.s
+.PHONY : source/Arab.cpp.s
+
+source/Arme.o: source/Arme.cpp.o
+.PHONY : source/Arme.o
+
+# target to build an object file
+source/Arme.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Arme.cpp.o
+.PHONY : source/Arme.cpp.o
+
+source/Arme.i: source/Arme.cpp.i
+.PHONY : source/Arme.i
+
+# target to preprocess a source file
+source/Arme.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Arme.cpp.i
+.PHONY : source/Arme.cpp.i
+
+source/Arme.s: source/Arme.cpp.s
+.PHONY : source/Arme.s
+
+# target to generate assembly for a file
+source/Arme.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Arme.cpp.s
+.PHONY : source/Arme.cpp.s
+
+source/Axe.o: source/Axe.cpp.o
+.PHONY : source/Axe.o
+
+# target to build an object file
+source/Axe.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Axe.cpp.o
+.PHONY : source/Axe.cpp.o
+
+source/Axe.i: source/Axe.cpp.i
+.PHONY : source/Axe.i
+
+# target to preprocess a source file
+source/Axe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Axe.cpp.i
+.PHONY : source/Axe.cpp.i
+
+source/Axe.s: source/Axe.cpp.s
+.PHONY : source/Axe.s
+
+# target to generate assembly for a file
+source/Axe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Axe.cpp.s
+.PHONY : source/Axe.cpp.s
+
+source/Bataille.o: source/Bataille.cpp.o
+.PHONY : source/Bataille.o
+
+# target to build an object file
+source/Bataille.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Bataille.cpp.o
+.PHONY : source/Bataille.cpp.o
+
+source/Bataille.i: source/Bataille.cpp.i
+.PHONY : source/Bataille.i
+
+# target to preprocess a source file
+source/Bataille.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Bataille.cpp.i
+.PHONY : source/Bataille.cpp.i
+
+source/Bataille.s: source/Bataille.cpp.s
+.PHONY : source/Bataille.s
+
+# target to generate assembly for a file
+source/Bataille.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Bataille.cpp.s
+.PHONY : source/Bataille.cpp.s
+
+source/Bataille_PC.o: source/Bataille_PC.cpp.o
+.PHONY : source/Bataille_PC.o
+
+# target to build an object file
+source/Bataille_PC.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.o
+.PHONY : source/Bataille_PC.cpp.o
+
+source/Bataille_PC.i: source/Bataille_PC.cpp.i
+.PHONY : source/Bataille_PC.i
+
+# target to preprocess a source file
+source/Bataille_PC.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.i
+.PHONY : source/Bataille_PC.cpp.i
+
+source/Bataille_PC.s: source/Bataille_PC.cpp.s
+.PHONY : source/Bataille_PC.s
+
+# target to generate assembly for a file
+source/Bataille_PC.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.s
+.PHONY : source/Bataille_PC.cpp.s
+
+source/Bataille_user.o: source/Bataille_user.cpp.o
+.PHONY : source/Bataille_user.o
+
+# target to build an object file
+source/Bataille_user.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.o
+.PHONY : source/Bataille_user.cpp.o
+
+source/Bataille_user.i: source/Bataille_user.cpp.i
+.PHONY : source/Bataille_user.i
+
+# target to preprocess a source file
+source/Bataille_user.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.i
+.PHONY : source/Bataille_user.cpp.i
+
+source/Bataille_user.s: source/Bataille_user.cpp.s
+.PHONY : source/Bataille_user.s
+
+# target to generate assembly for a file
+source/Bataille_user.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.s
+.PHONY : source/Bataille_user.cpp.s
+
+source/Clan.o: source/Clan.cpp.o
+.PHONY : source/Clan.o
+
+# target to build an object file
+source/Clan.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Clan.cpp.o
+.PHONY : source/Clan.cpp.o
+
+source/Clan.i: source/Clan.cpp.i
+.PHONY : source/Clan.i
+
+# target to preprocess a source file
+source/Clan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Clan.cpp.i
+.PHONY : source/Clan.cpp.i
+
+source/Clan.s: source/Clan.cpp.s
+.PHONY : source/Clan.s
+
+# target to generate assembly for a file
+source/Clan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Clan.cpp.s
+.PHONY : source/Clan.cpp.s
+
+source/ClanWar.o: source/ClanWar.cpp.o
+.PHONY : source/ClanWar.o
+
+# target to build an object file
+source/ClanWar.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/ClanWar.cpp.o
+.PHONY : source/ClanWar.cpp.o
+
+source/ClanWar.i: source/ClanWar.cpp.i
+.PHONY : source/ClanWar.i
+
+# target to preprocess a source file
+source/ClanWar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/ClanWar.cpp.i
+.PHONY : source/ClanWar.cpp.i
+
+source/ClanWar.s: source/ClanWar.cpp.s
+.PHONY : source/ClanWar.s
+
+# target to generate assembly for a file
+source/ClanWar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/ClanWar.cpp.s
+.PHONY : source/ClanWar.cpp.s
+
+source/Guerrier.o: source/Guerrier.cpp.o
+.PHONY : source/Guerrier.o
+
+# target to build an object file
+source/Guerrier.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Guerrier.cpp.o
+.PHONY : source/Guerrier.cpp.o
+
+source/Guerrier.i: source/Guerrier.cpp.i
+.PHONY : source/Guerrier.i
+
+# target to preprocess a source file
+source/Guerrier.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Guerrier.cpp.i
+.PHONY : source/Guerrier.cpp.i
+
+source/Guerrier.s: source/Guerrier.cpp.s
+.PHONY : source/Guerrier.s
+
+# target to generate assembly for a file
+source/Guerrier.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Guerrier.cpp.s
+.PHONY : source/Guerrier.cpp.s
+
+source/Magic_wand.o: source/Magic_wand.cpp.o
+.PHONY : source/Magic_wand.o
+
+# target to build an object file
+source/Magic_wand.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.o
+.PHONY : source/Magic_wand.cpp.o
+
+source/Magic_wand.i: source/Magic_wand.cpp.i
+.PHONY : source/Magic_wand.i
+
+# target to preprocess a source file
+source/Magic_wand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.i
+.PHONY : source/Magic_wand.cpp.i
+
+source/Magic_wand.s: source/Magic_wand.cpp.s
+.PHONY : source/Magic_wand.s
+
+# target to generate assembly for a file
+source/Magic_wand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.s
+.PHONY : source/Magic_wand.cpp.s
+
+source/Persian.o: source/Persian.cpp.o
+.PHONY : source/Persian.o
+
+# target to build an object file
+source/Persian.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Persian.cpp.o
+.PHONY : source/Persian.cpp.o
+
+source/Persian.i: source/Persian.cpp.i
+.PHONY : source/Persian.i
+
+# target to preprocess a source file
+source/Persian.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Persian.cpp.i
+.PHONY : source/Persian.cpp.i
+
+source/Persian.s: source/Persian.cpp.s
+.PHONY : source/Persian.s
+
+# target to generate assembly for a file
+source/Persian.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Persian.cpp.s
+.PHONY : source/Persian.cpp.s
+
+source/Pirate.o: source/Pirate.cpp.o
+.PHONY : source/Pirate.o
+
+# target to build an object file
+source/Pirate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Pirate.cpp.o
+.PHONY : source/Pirate.cpp.o
+
+source/Pirate.i: source/Pirate.cpp.i
+.PHONY : source/Pirate.i
+
+# target to preprocess a source file
+source/Pirate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Pirate.cpp.i
+.PHONY : source/Pirate.cpp.i
+
+source/Pirate.s: source/Pirate.cpp.s
+.PHONY : source/Pirate.s
+
+# target to generate assembly for a file
+source/Pirate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Pirate.cpp.s
+.PHONY : source/Pirate.cpp.s
+
+source/Shield.o: source/Shield.cpp.o
+.PHONY : source/Shield.o
+
+# target to build an object file
+source/Shield.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Shield.cpp.o
+.PHONY : source/Shield.cpp.o
+
+source/Shield.i: source/Shield.cpp.i
+.PHONY : source/Shield.i
+
+# target to preprocess a source file
+source/Shield.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Shield.cpp.i
+.PHONY : source/Shield.cpp.i
+
+source/Shield.s: source/Shield.cpp.s
+.PHONY : source/Shield.s
+
+# target to generate assembly for a file
+source/Shield.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Shield.cpp.s
+.PHONY : source/Shield.cpp.s
+
+source/Sword.o: source/Sword.cpp.o
+.PHONY : source/Sword.o
+
+# target to build an object file
+source/Sword.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Sword.cpp.o
+.PHONY : source/Sword.cpp.o
+
+source/Sword.i: source/Sword.cpp.i
+.PHONY : source/Sword.i
+
+# target to preprocess a source file
+source/Sword.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Sword.cpp.i
+.PHONY : source/Sword.cpp.i
+
+source/Sword.s: source/Sword.cpp.s
+.PHONY : source/Sword.s
+
+# target to generate assembly for a file
+source/Sword.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Sword.cpp.s
+.PHONY : source/Sword.cpp.s
+
+source/Viking.o: source/Viking.cpp.o
+.PHONY : source/Viking.o
+
+# target to build an object file
+source/Viking.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Viking.cpp.o
+.PHONY : source/Viking.cpp.o
+
+source/Viking.i: source/Viking.cpp.i
+.PHONY : source/Viking.i
+
+# target to preprocess a source file
+source/Viking.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Viking.cpp.i
+.PHONY : source/Viking.cpp.i
+
+source/Viking.s: source/Viking.cpp.s
+.PHONY : source/Viking.s
+
+# target to generate assembly for a file
+source/Viking.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClanWar.dir/build.make CMakeFiles/ClanWar.dir/source/Viking.cpp.s
+.PHONY : source/Viking.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -498,51 +522,54 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ClanWar"
-	@echo "... Arab.o"
-	@echo "... Arab.i"
-	@echo "... Arab.s"
-	@echo "... Arme.o"
-	@echo "... Arme.i"
-	@echo "... Arme.s"
-	@echo "... Axe.o"
-	@echo "... Axe.i"
-	@echo "... Axe.s"
-	@echo "... Bataille.o"
-	@echo "... Bataille.i"
-	@echo "... Bataille.s"
-	@echo "... Bataille_PC.o"
-	@echo "... Bataille_PC.i"
-	@echo "... Bataille_PC.s"
-	@echo "... Bataille_user.o"
-	@echo "... Bataille_user.i"
-	@echo "... Bataille_user.s"
-	@echo "... Clan.o"
-	@echo "... Clan.i"
-	@echo "... Clan.s"
-	@echo "... Guerrier.o"
-	@echo "... Guerrier.i"
-	@echo "... Guerrier.s"
-	@echo "... Magic_wand.o"
-	@echo "... Magic_wand.i"
-	@echo "... Magic_wand.s"
-	@echo "... Persian.o"
-	@echo "... Persian.i"
-	@echo "... Persian.s"
-	@echo "... Pirate.o"
-	@echo "... Pirate.i"
-	@echo "... Pirate.s"
-	@echo "... Shield.o"
-	@echo "... Shield.i"
-	@echo "... Shield.s"
-	@echo "... Sword.o"
-	@echo "... Sword.i"
-	@echo "... Sword.s"
-	@echo "... Viking.o"
-	@echo "... Viking.i"
-	@echo "... Viking.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... source/Arab.o"
+	@echo "... source/Arab.i"
+	@echo "... source/Arab.s"
+	@echo "... source/Arme.o"
+	@echo "... source/Arme.i"
+	@echo "... source/Arme.s"
+	@echo "... source/Axe.o"
+	@echo "... source/Axe.i"
+	@echo "... source/Axe.s"
+	@echo "... source/Bataille.o"
+	@echo "... source/Bataille.i"
+	@echo "... source/Bataille.s"
+	@echo "... source/Bataille_PC.o"
+	@echo "... source/Bataille_PC.i"
+	@echo "... source/Bataille_PC.s"
+	@echo "... source/Bataille_user.o"
+	@echo "... source/Bataille_user.i"
+	@echo "... source/Bataille_user.s"
+	@echo "... source/Clan.o"
+	@echo "... source/Clan.i"
+	@echo "... source/Clan.s"
+	@echo "... source/ClanWar.o"
+	@echo "... source/ClanWar.i"
+	@echo "... source/ClanWar.s"
+	@echo "... source/Guerrier.o"
+	@echo "... source/Guerrier.i"
+	@echo "... source/Guerrier.s"
+	@echo "... source/Magic_wand.o"
+	@echo "... source/Magic_wand.i"
+	@echo "... source/Magic_wand.s"
+	@echo "... source/Persian.o"
+	@echo "... source/Persian.i"
+	@echo "... source/Persian.s"
+	@echo "... source/Pirate.o"
+	@echo "... source/Pirate.i"
+	@echo "... source/Pirate.s"
+	@echo "... source/Shield.o"
+	@echo "... source/Shield.i"
+	@echo "... source/Shield.s"
+	@echo "... source/Sword.o"
+	@echo "... source/Sword.i"
+	@echo "... source/Sword.s"
+	@echo "... source/Viking.o"
+	@echo "... source/Viking.i"
+	@echo "... source/Viking.s"
 .PHONY : help
 
 

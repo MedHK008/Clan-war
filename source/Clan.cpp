@@ -32,11 +32,20 @@ Guerrier& Clan::getGuerrier(int index) {
     return Guerriers.at(index);
 }
 
+void Clan::ApplyDifficulty(Nv_difficulte Niveau) {
+    for (auto& guerrier : Guerriers) {
+        guerrier.DifficultyEffect(Niveau);
+    }
+}
+
+
 void Clan::showClan() const {
     cout << "Clan Name: " << Name << endl;
     cout << "Clan Power: " << Power << endl;
     cout << "Guerriers: " << endl;
+    int i = 0;
     for (const auto& guerrier : Guerriers) {
+        cout << i << ": ";
         guerrier.showGuerrier();
     }
 }

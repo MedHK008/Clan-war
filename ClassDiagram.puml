@@ -2,7 +2,7 @@
 
 skinparam classAttributeIconSize 0
 
-abstract class Guerrier{
+class Guerrier{
 #String Name
 #Float Health
 #Float Power
@@ -30,7 +30,7 @@ class Pirate extends Guerrier{
 class Persian extends Guerrier{
 }
 
-abstract class Arme {
+class Arme {
 #String Name
 #Float ResistanceEffect
 #Float VitesseEffect
@@ -75,19 +75,22 @@ class Clan {
 
 abstract class Bataille{
 -Boolean typeJeu
--List<Clan> clans
+#Clan clan1
+#Clan clan2
 +Bataille()
-+addClan(Clan)
-+readClan()
-+Simulation()
++CreateClan()
++Play()
 }
 
 class Bataille2Perso extends Bataille{
-
+-CreateClans(String Name)
 }
 
 class BatailleVSpc extends Bataille{
 -Difficulty NiveauDifficulte
+-int NumGuerrier
++ChooseDifficulty()
++CreatePcClan()
 }
 
 Guerrier "1" --* "*" Clan 

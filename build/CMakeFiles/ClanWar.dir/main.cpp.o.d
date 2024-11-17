@@ -154,9 +154,14 @@ CMakeFiles/ClanWar.dir/main.cpp.o: /home/medhk/Desktop/Clan-war/main.cpp \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /home/medhk/Desktop/Clan-war/Guerrier.h /usr/include/c++/13/memory \
- /usr/include/c++/13/bits/stl_tempbuf.h \
+ /home/medhk/Desktop/Clan-war/headers/ClanWar.h \
+ /home/medhk/Desktop/Clan-war/headers/Bataille.h \
+ /home/medhk/Desktop/Clan-war/headers/Clan.h /usr/include/c++/13/vector \
  /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_tempbuf.h \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
@@ -198,18 +203,13 @@ CMakeFiles/ClanWar.dir/main.cpp.o: /home/medhk/Desktop/Clan-war/main.cpp \
  /usr/include/c++/13/bits/ranges_algobase.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/medhk/Desktop/Clan-war/Arme.h /home/medhk/Desktop/Clan-war/Sword.h \
- /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
- /home/medhk/Desktop/Clan-war/Shield.h /home/medhk/Desktop/Clan-war/Axe.h \
- /home/medhk/Desktop/Clan-war/Magic_wand.h \
- /home/medhk/Desktop/Clan-war/Arab.h \
- /home/medhk/Desktop/Clan-war/Viking.h \
- /home/medhk/Desktop/Clan-war/Pirate.h \
- /home/medhk/Desktop/Clan-war/Persian.h \
- /home/medhk/Desktop/Clan-war/Clan.h /usr/include/c++/13/vector \
- /usr/include/c++/13/bits/stl_vector.h \
- /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc \
- /home/medhk/Desktop/Clan-war/Bataille.h \
- /home/medhk/Desktop/Clan-war/Bataille_PC.h \
- /home/medhk/Desktop/Clan-war/Bataille_user.h
+ /home/medhk/Desktop/Clan-war/headers/Guerrier.h \
+ /home/medhk/Desktop/Clan-war/headers/Arme.h \
+ /home/medhk/Desktop/Clan-war/headers/Sword.h /usr/include/c++/13/utility \
+ /usr/include/c++/13/bits/stl_relops.h \
+ /home/medhk/Desktop/Clan-war/headers/Shield.h \
+ /home/medhk/Desktop/Clan-war/headers/Axe.h \
+ /home/medhk/Desktop/Clan-war/headers/Magic_wand.h \
+ /home/medhk/Desktop/Clan-war/headers/Difficulty.h \
+ /home/medhk/Desktop/Clan-war/headers/Bataille_user.h \
+ /home/medhk/Desktop/Clan-war/headers/Bataille_PC.h

@@ -32,11 +32,13 @@ float Guerrier::CalculatePower() {
 }
 
 void Guerrier::getHit(float hit) {
-    cout << Name << " received " << hit << " damage." << endl;
     hit *= Resistance;
     Health -= hit;
-    cout << Name << " got hit with " << hit << " damage." << endl;
-    cout << "Health: " << Health << endl;
+    cout << Name << " got hit with " << hit << " damage, ";
+    if (Health < 0) {
+        Health = 0;
+    }
+    cout << "Current Health: " << Health << endl;
 }
 
 float Guerrier::Hit() {
@@ -46,7 +48,7 @@ float Guerrier::Hit() {
     } else if (arme->isMagic()) {
         Health = arme->affectHealth(Health);
     }
-    std::cout << Name << " attacks with " << Attack << " damage." << std::endl;
+    cout << Name << " attacks with " << Attack << " damage." << endl;
     return this->Attack;
 }
 
@@ -71,7 +73,26 @@ std::string Guerrier::getName() const {
     return Name;
 }
 
+void Guerrier::DifficultyEffect(Nv_difficulte Niveau) {
+    switch (Niveau) {
+        case facile:
+            Health *= 0.8;
+            Attack *= 0.8;
+            Resistance *= 1.2;
+            Vitesse *= 0.8;
+            break;
+        case moyen:
+            break;
+        case difficile:
+            Health *= 1.2;
+            Attack *= 1.2;
+            Resistance *= 0.8;
+            Vitesse *= 1.2;
+            break;
+    }
+}
+
 void Guerrier::showGuerrier() const {
-    cout << "Name: " << Name << endl;
+    cout <<  Name << " ";
     arme->showArme();
 }

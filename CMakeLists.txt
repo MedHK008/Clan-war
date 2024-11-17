@@ -3,21 +3,12 @@ project(ClanWar)
 
 set(CMAKE_CXX_STANDARD 20)
 
+include_directories(headers)
+
+file(GLOB SOURCES "source/*.cpp")
+
 add_executable(
-        ClanWar main.cpp Clan.cpp Clan.h
-        Arme.h Arme.cpp
-        Magic_wand.h Magic_wand.cpp
-        Shield.h Shield.cpp
-        Sword.h Sword.cpp
-        Axe.h Axe.cpp
-
-        Guerrier.h Guerrier.cpp
-        Arab.h Arab.cpp
-        Persian.h Persian.cpp
-        Pirate.h Pirate.cpp
-        Viking.h Viking.cpp
-
-        Bataille.h Bataille.cpp
-        Bataille_PC.h Bataille_PC.cpp
-        Bataille_user.h Bataille_user.cpp
+    ClanWar
+    main.cpp
+    ${SOURCES}
 )

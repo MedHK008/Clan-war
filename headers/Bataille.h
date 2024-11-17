@@ -4,9 +4,8 @@
 
 class Bataille
 {
-	private:
-		
-		int type_jeu;//0:vs pc 1: un vs un 
+private:
+	int type_jeu;///0:vs pc 1: un vs un 
 
 protected:
     Clan* clan1;
@@ -15,9 +14,9 @@ protected:
 public:
 	Bataille(int type);
 	~Bataille();
+	virtual void jouer()=0;
+	virtual void creer_clan_user()=0;
 	void afficher() const;
-	virtual void jouer()=0;	
-	virtual void creer_clan() = 0;
 };
 
 

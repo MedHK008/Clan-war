@@ -86,242 +86,258 @@ CMakeFiles/ClanWar.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/main.cpp -o CMakeFiles/ClanWar.dir/main.cpp.s
 
-CMakeFiles/ClanWar.dir/Clan.cpp.o: CMakeFiles/ClanWar.dir/flags.make
-CMakeFiles/ClanWar.dir/Clan.cpp.o: /home/medhk/Desktop/Clan-war/Clan.cpp
-CMakeFiles/ClanWar.dir/Clan.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ClanWar.dir/Clan.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Clan.cpp.o -MF CMakeFiles/ClanWar.dir/Clan.cpp.o.d -o CMakeFiles/ClanWar.dir/Clan.cpp.o -c /home/medhk/Desktop/Clan-war/Clan.cpp
+CMakeFiles/ClanWar.dir/source/Arab.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/source/Arab.cpp.o: /home/medhk/Desktop/Clan-war/source/Arab.cpp
+CMakeFiles/ClanWar.dir/source/Arab.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ClanWar.dir/source/Arab.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/source/Arab.cpp.o -MF CMakeFiles/ClanWar.dir/source/Arab.cpp.o.d -o CMakeFiles/ClanWar.dir/source/Arab.cpp.o -c /home/medhk/Desktop/Clan-war/source/Arab.cpp
 
-CMakeFiles/ClanWar.dir/Clan.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Clan.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Clan.cpp > CMakeFiles/ClanWar.dir/Clan.cpp.i
+CMakeFiles/ClanWar.dir/source/Arab.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/source/Arab.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/source/Arab.cpp > CMakeFiles/ClanWar.dir/source/Arab.cpp.i
 
-CMakeFiles/ClanWar.dir/Clan.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Clan.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Clan.cpp -o CMakeFiles/ClanWar.dir/Clan.cpp.s
+CMakeFiles/ClanWar.dir/source/Arab.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/source/Arab.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/source/Arab.cpp -o CMakeFiles/ClanWar.dir/source/Arab.cpp.s
 
-CMakeFiles/ClanWar.dir/Arme.cpp.o: CMakeFiles/ClanWar.dir/flags.make
-CMakeFiles/ClanWar.dir/Arme.cpp.o: /home/medhk/Desktop/Clan-war/Arme.cpp
-CMakeFiles/ClanWar.dir/Arme.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ClanWar.dir/Arme.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Arme.cpp.o -MF CMakeFiles/ClanWar.dir/Arme.cpp.o.d -o CMakeFiles/ClanWar.dir/Arme.cpp.o -c /home/medhk/Desktop/Clan-war/Arme.cpp
+CMakeFiles/ClanWar.dir/source/Arme.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/source/Arme.cpp.o: /home/medhk/Desktop/Clan-war/source/Arme.cpp
+CMakeFiles/ClanWar.dir/source/Arme.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ClanWar.dir/source/Arme.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/source/Arme.cpp.o -MF CMakeFiles/ClanWar.dir/source/Arme.cpp.o.d -o CMakeFiles/ClanWar.dir/source/Arme.cpp.o -c /home/medhk/Desktop/Clan-war/source/Arme.cpp
 
-CMakeFiles/ClanWar.dir/Arme.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Arme.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Arme.cpp > CMakeFiles/ClanWar.dir/Arme.cpp.i
+CMakeFiles/ClanWar.dir/source/Arme.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/source/Arme.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/source/Arme.cpp > CMakeFiles/ClanWar.dir/source/Arme.cpp.i
 
-CMakeFiles/ClanWar.dir/Arme.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Arme.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Arme.cpp -o CMakeFiles/ClanWar.dir/Arme.cpp.s
+CMakeFiles/ClanWar.dir/source/Arme.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/source/Arme.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/source/Arme.cpp -o CMakeFiles/ClanWar.dir/source/Arme.cpp.s
 
-CMakeFiles/ClanWar.dir/Magic_wand.cpp.o: CMakeFiles/ClanWar.dir/flags.make
-CMakeFiles/ClanWar.dir/Magic_wand.cpp.o: /home/medhk/Desktop/Clan-war/Magic_wand.cpp
-CMakeFiles/ClanWar.dir/Magic_wand.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ClanWar.dir/Magic_wand.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Magic_wand.cpp.o -MF CMakeFiles/ClanWar.dir/Magic_wand.cpp.o.d -o CMakeFiles/ClanWar.dir/Magic_wand.cpp.o -c /home/medhk/Desktop/Clan-war/Magic_wand.cpp
+CMakeFiles/ClanWar.dir/source/Axe.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/source/Axe.cpp.o: /home/medhk/Desktop/Clan-war/source/Axe.cpp
+CMakeFiles/ClanWar.dir/source/Axe.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ClanWar.dir/source/Axe.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/source/Axe.cpp.o -MF CMakeFiles/ClanWar.dir/source/Axe.cpp.o.d -o CMakeFiles/ClanWar.dir/source/Axe.cpp.o -c /home/medhk/Desktop/Clan-war/source/Axe.cpp
 
-CMakeFiles/ClanWar.dir/Magic_wand.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Magic_wand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Magic_wand.cpp > CMakeFiles/ClanWar.dir/Magic_wand.cpp.i
+CMakeFiles/ClanWar.dir/source/Axe.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/source/Axe.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/source/Axe.cpp > CMakeFiles/ClanWar.dir/source/Axe.cpp.i
 
-CMakeFiles/ClanWar.dir/Magic_wand.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Magic_wand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Magic_wand.cpp -o CMakeFiles/ClanWar.dir/Magic_wand.cpp.s
+CMakeFiles/ClanWar.dir/source/Axe.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/source/Axe.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/source/Axe.cpp -o CMakeFiles/ClanWar.dir/source/Axe.cpp.s
 
-CMakeFiles/ClanWar.dir/Shield.cpp.o: CMakeFiles/ClanWar.dir/flags.make
-CMakeFiles/ClanWar.dir/Shield.cpp.o: /home/medhk/Desktop/Clan-war/Shield.cpp
-CMakeFiles/ClanWar.dir/Shield.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ClanWar.dir/Shield.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Shield.cpp.o -MF CMakeFiles/ClanWar.dir/Shield.cpp.o.d -o CMakeFiles/ClanWar.dir/Shield.cpp.o -c /home/medhk/Desktop/Clan-war/Shield.cpp
+CMakeFiles/ClanWar.dir/source/Bataille.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/source/Bataille.cpp.o: /home/medhk/Desktop/Clan-war/source/Bataille.cpp
+CMakeFiles/ClanWar.dir/source/Bataille.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ClanWar.dir/source/Bataille.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/source/Bataille.cpp.o -MF CMakeFiles/ClanWar.dir/source/Bataille.cpp.o.d -o CMakeFiles/ClanWar.dir/source/Bataille.cpp.o -c /home/medhk/Desktop/Clan-war/source/Bataille.cpp
 
-CMakeFiles/ClanWar.dir/Shield.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Shield.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Shield.cpp > CMakeFiles/ClanWar.dir/Shield.cpp.i
+CMakeFiles/ClanWar.dir/source/Bataille.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/source/Bataille.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/source/Bataille.cpp > CMakeFiles/ClanWar.dir/source/Bataille.cpp.i
 
-CMakeFiles/ClanWar.dir/Shield.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Shield.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Shield.cpp -o CMakeFiles/ClanWar.dir/Shield.cpp.s
+CMakeFiles/ClanWar.dir/source/Bataille.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/source/Bataille.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/source/Bataille.cpp -o CMakeFiles/ClanWar.dir/source/Bataille.cpp.s
 
-CMakeFiles/ClanWar.dir/Sword.cpp.o: CMakeFiles/ClanWar.dir/flags.make
-CMakeFiles/ClanWar.dir/Sword.cpp.o: /home/medhk/Desktop/Clan-war/Sword.cpp
-CMakeFiles/ClanWar.dir/Sword.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ClanWar.dir/Sword.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Sword.cpp.o -MF CMakeFiles/ClanWar.dir/Sword.cpp.o.d -o CMakeFiles/ClanWar.dir/Sword.cpp.o -c /home/medhk/Desktop/Clan-war/Sword.cpp
+CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.o: /home/medhk/Desktop/Clan-war/source/Bataille_PC.cpp
+CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.o -MF CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.o.d -o CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.o -c /home/medhk/Desktop/Clan-war/source/Bataille_PC.cpp
 
-CMakeFiles/ClanWar.dir/Sword.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Sword.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Sword.cpp > CMakeFiles/ClanWar.dir/Sword.cpp.i
+CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/source/Bataille_PC.cpp > CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.i
 
-CMakeFiles/ClanWar.dir/Sword.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Sword.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Sword.cpp -o CMakeFiles/ClanWar.dir/Sword.cpp.s
+CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/source/Bataille_PC.cpp -o CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.s
 
-CMakeFiles/ClanWar.dir/Axe.cpp.o: CMakeFiles/ClanWar.dir/flags.make
-CMakeFiles/ClanWar.dir/Axe.cpp.o: /home/medhk/Desktop/Clan-war/Axe.cpp
-CMakeFiles/ClanWar.dir/Axe.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ClanWar.dir/Axe.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Axe.cpp.o -MF CMakeFiles/ClanWar.dir/Axe.cpp.o.d -o CMakeFiles/ClanWar.dir/Axe.cpp.o -c /home/medhk/Desktop/Clan-war/Axe.cpp
+CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.o: /home/medhk/Desktop/Clan-war/source/Bataille_user.cpp
+CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.o -MF CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.o.d -o CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.o -c /home/medhk/Desktop/Clan-war/source/Bataille_user.cpp
 
-CMakeFiles/ClanWar.dir/Axe.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Axe.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Axe.cpp > CMakeFiles/ClanWar.dir/Axe.cpp.i
+CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/source/Bataille_user.cpp > CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.i
 
-CMakeFiles/ClanWar.dir/Axe.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Axe.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Axe.cpp -o CMakeFiles/ClanWar.dir/Axe.cpp.s
+CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/source/Bataille_user.cpp -o CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.s
 
-CMakeFiles/ClanWar.dir/Guerrier.cpp.o: CMakeFiles/ClanWar.dir/flags.make
-CMakeFiles/ClanWar.dir/Guerrier.cpp.o: /home/medhk/Desktop/Clan-war/Guerrier.cpp
-CMakeFiles/ClanWar.dir/Guerrier.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ClanWar.dir/Guerrier.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Guerrier.cpp.o -MF CMakeFiles/ClanWar.dir/Guerrier.cpp.o.d -o CMakeFiles/ClanWar.dir/Guerrier.cpp.o -c /home/medhk/Desktop/Clan-war/Guerrier.cpp
+CMakeFiles/ClanWar.dir/source/Clan.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/source/Clan.cpp.o: /home/medhk/Desktop/Clan-war/source/Clan.cpp
+CMakeFiles/ClanWar.dir/source/Clan.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ClanWar.dir/source/Clan.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/source/Clan.cpp.o -MF CMakeFiles/ClanWar.dir/source/Clan.cpp.o.d -o CMakeFiles/ClanWar.dir/source/Clan.cpp.o -c /home/medhk/Desktop/Clan-war/source/Clan.cpp
 
-CMakeFiles/ClanWar.dir/Guerrier.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Guerrier.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Guerrier.cpp > CMakeFiles/ClanWar.dir/Guerrier.cpp.i
+CMakeFiles/ClanWar.dir/source/Clan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/source/Clan.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/source/Clan.cpp > CMakeFiles/ClanWar.dir/source/Clan.cpp.i
 
-CMakeFiles/ClanWar.dir/Guerrier.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Guerrier.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Guerrier.cpp -o CMakeFiles/ClanWar.dir/Guerrier.cpp.s
+CMakeFiles/ClanWar.dir/source/Clan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/source/Clan.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/source/Clan.cpp -o CMakeFiles/ClanWar.dir/source/Clan.cpp.s
 
-CMakeFiles/ClanWar.dir/Arab.cpp.o: CMakeFiles/ClanWar.dir/flags.make
-CMakeFiles/ClanWar.dir/Arab.cpp.o: /home/medhk/Desktop/Clan-war/Arab.cpp
-CMakeFiles/ClanWar.dir/Arab.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ClanWar.dir/Arab.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Arab.cpp.o -MF CMakeFiles/ClanWar.dir/Arab.cpp.o.d -o CMakeFiles/ClanWar.dir/Arab.cpp.o -c /home/medhk/Desktop/Clan-war/Arab.cpp
+CMakeFiles/ClanWar.dir/source/ClanWar.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/source/ClanWar.cpp.o: /home/medhk/Desktop/Clan-war/source/ClanWar.cpp
+CMakeFiles/ClanWar.dir/source/ClanWar.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ClanWar.dir/source/ClanWar.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/source/ClanWar.cpp.o -MF CMakeFiles/ClanWar.dir/source/ClanWar.cpp.o.d -o CMakeFiles/ClanWar.dir/source/ClanWar.cpp.o -c /home/medhk/Desktop/Clan-war/source/ClanWar.cpp
 
-CMakeFiles/ClanWar.dir/Arab.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Arab.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Arab.cpp > CMakeFiles/ClanWar.dir/Arab.cpp.i
+CMakeFiles/ClanWar.dir/source/ClanWar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/source/ClanWar.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/source/ClanWar.cpp > CMakeFiles/ClanWar.dir/source/ClanWar.cpp.i
 
-CMakeFiles/ClanWar.dir/Arab.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Arab.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Arab.cpp -o CMakeFiles/ClanWar.dir/Arab.cpp.s
+CMakeFiles/ClanWar.dir/source/ClanWar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/source/ClanWar.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/source/ClanWar.cpp -o CMakeFiles/ClanWar.dir/source/ClanWar.cpp.s
 
-CMakeFiles/ClanWar.dir/Persian.cpp.o: CMakeFiles/ClanWar.dir/flags.make
-CMakeFiles/ClanWar.dir/Persian.cpp.o: /home/medhk/Desktop/Clan-war/Persian.cpp
-CMakeFiles/ClanWar.dir/Persian.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ClanWar.dir/Persian.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Persian.cpp.o -MF CMakeFiles/ClanWar.dir/Persian.cpp.o.d -o CMakeFiles/ClanWar.dir/Persian.cpp.o -c /home/medhk/Desktop/Clan-war/Persian.cpp
+CMakeFiles/ClanWar.dir/source/Guerrier.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/source/Guerrier.cpp.o: /home/medhk/Desktop/Clan-war/source/Guerrier.cpp
+CMakeFiles/ClanWar.dir/source/Guerrier.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ClanWar.dir/source/Guerrier.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/source/Guerrier.cpp.o -MF CMakeFiles/ClanWar.dir/source/Guerrier.cpp.o.d -o CMakeFiles/ClanWar.dir/source/Guerrier.cpp.o -c /home/medhk/Desktop/Clan-war/source/Guerrier.cpp
 
-CMakeFiles/ClanWar.dir/Persian.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Persian.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Persian.cpp > CMakeFiles/ClanWar.dir/Persian.cpp.i
+CMakeFiles/ClanWar.dir/source/Guerrier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/source/Guerrier.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/source/Guerrier.cpp > CMakeFiles/ClanWar.dir/source/Guerrier.cpp.i
 
-CMakeFiles/ClanWar.dir/Persian.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Persian.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Persian.cpp -o CMakeFiles/ClanWar.dir/Persian.cpp.s
+CMakeFiles/ClanWar.dir/source/Guerrier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/source/Guerrier.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/source/Guerrier.cpp -o CMakeFiles/ClanWar.dir/source/Guerrier.cpp.s
 
-CMakeFiles/ClanWar.dir/Pirate.cpp.o: CMakeFiles/ClanWar.dir/flags.make
-CMakeFiles/ClanWar.dir/Pirate.cpp.o: /home/medhk/Desktop/Clan-war/Pirate.cpp
-CMakeFiles/ClanWar.dir/Pirate.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ClanWar.dir/Pirate.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Pirate.cpp.o -MF CMakeFiles/ClanWar.dir/Pirate.cpp.o.d -o CMakeFiles/ClanWar.dir/Pirate.cpp.o -c /home/medhk/Desktop/Clan-war/Pirate.cpp
+CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.o: /home/medhk/Desktop/Clan-war/source/Magic_wand.cpp
+CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.o -MF CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.o.d -o CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.o -c /home/medhk/Desktop/Clan-war/source/Magic_wand.cpp
 
-CMakeFiles/ClanWar.dir/Pirate.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Pirate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Pirate.cpp > CMakeFiles/ClanWar.dir/Pirate.cpp.i
+CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/source/Magic_wand.cpp > CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.i
 
-CMakeFiles/ClanWar.dir/Pirate.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Pirate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Pirate.cpp -o CMakeFiles/ClanWar.dir/Pirate.cpp.s
+CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/source/Magic_wand.cpp -o CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.s
 
-CMakeFiles/ClanWar.dir/Viking.cpp.o: CMakeFiles/ClanWar.dir/flags.make
-CMakeFiles/ClanWar.dir/Viking.cpp.o: /home/medhk/Desktop/Clan-war/Viking.cpp
-CMakeFiles/ClanWar.dir/Viking.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ClanWar.dir/Viking.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Viking.cpp.o -MF CMakeFiles/ClanWar.dir/Viking.cpp.o.d -o CMakeFiles/ClanWar.dir/Viking.cpp.o -c /home/medhk/Desktop/Clan-war/Viking.cpp
+CMakeFiles/ClanWar.dir/source/Persian.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/source/Persian.cpp.o: /home/medhk/Desktop/Clan-war/source/Persian.cpp
+CMakeFiles/ClanWar.dir/source/Persian.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ClanWar.dir/source/Persian.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/source/Persian.cpp.o -MF CMakeFiles/ClanWar.dir/source/Persian.cpp.o.d -o CMakeFiles/ClanWar.dir/source/Persian.cpp.o -c /home/medhk/Desktop/Clan-war/source/Persian.cpp
 
-CMakeFiles/ClanWar.dir/Viking.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Viking.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Viking.cpp > CMakeFiles/ClanWar.dir/Viking.cpp.i
+CMakeFiles/ClanWar.dir/source/Persian.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/source/Persian.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/source/Persian.cpp > CMakeFiles/ClanWar.dir/source/Persian.cpp.i
 
-CMakeFiles/ClanWar.dir/Viking.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Viking.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Viking.cpp -o CMakeFiles/ClanWar.dir/Viking.cpp.s
+CMakeFiles/ClanWar.dir/source/Persian.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/source/Persian.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/source/Persian.cpp -o CMakeFiles/ClanWar.dir/source/Persian.cpp.s
 
-CMakeFiles/ClanWar.dir/Bataille.cpp.o: CMakeFiles/ClanWar.dir/flags.make
-CMakeFiles/ClanWar.dir/Bataille.cpp.o: /home/medhk/Desktop/Clan-war/Bataille.cpp
-CMakeFiles/ClanWar.dir/Bataille.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ClanWar.dir/Bataille.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Bataille.cpp.o -MF CMakeFiles/ClanWar.dir/Bataille.cpp.o.d -o CMakeFiles/ClanWar.dir/Bataille.cpp.o -c /home/medhk/Desktop/Clan-war/Bataille.cpp
+CMakeFiles/ClanWar.dir/source/Pirate.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/source/Pirate.cpp.o: /home/medhk/Desktop/Clan-war/source/Pirate.cpp
+CMakeFiles/ClanWar.dir/source/Pirate.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/ClanWar.dir/source/Pirate.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/source/Pirate.cpp.o -MF CMakeFiles/ClanWar.dir/source/Pirate.cpp.o.d -o CMakeFiles/ClanWar.dir/source/Pirate.cpp.o -c /home/medhk/Desktop/Clan-war/source/Pirate.cpp
 
-CMakeFiles/ClanWar.dir/Bataille.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Bataille.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Bataille.cpp > CMakeFiles/ClanWar.dir/Bataille.cpp.i
+CMakeFiles/ClanWar.dir/source/Pirate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/source/Pirate.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/source/Pirate.cpp > CMakeFiles/ClanWar.dir/source/Pirate.cpp.i
 
-CMakeFiles/ClanWar.dir/Bataille.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Bataille.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Bataille.cpp -o CMakeFiles/ClanWar.dir/Bataille.cpp.s
+CMakeFiles/ClanWar.dir/source/Pirate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/source/Pirate.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/source/Pirate.cpp -o CMakeFiles/ClanWar.dir/source/Pirate.cpp.s
 
-CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o: CMakeFiles/ClanWar.dir/flags.make
-CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o: /home/medhk/Desktop/Clan-war/Bataille_PC.cpp
-CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o -MF CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o.d -o CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o -c /home/medhk/Desktop/Clan-war/Bataille_PC.cpp
+CMakeFiles/ClanWar.dir/source/Shield.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/source/Shield.cpp.o: /home/medhk/Desktop/Clan-war/source/Shield.cpp
+CMakeFiles/ClanWar.dir/source/Shield.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/ClanWar.dir/source/Shield.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/source/Shield.cpp.o -MF CMakeFiles/ClanWar.dir/source/Shield.cpp.o.d -o CMakeFiles/ClanWar.dir/source/Shield.cpp.o -c /home/medhk/Desktop/Clan-war/source/Shield.cpp
 
-CMakeFiles/ClanWar.dir/Bataille_PC.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Bataille_PC.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Bataille_PC.cpp > CMakeFiles/ClanWar.dir/Bataille_PC.cpp.i
+CMakeFiles/ClanWar.dir/source/Shield.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/source/Shield.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/source/Shield.cpp > CMakeFiles/ClanWar.dir/source/Shield.cpp.i
 
-CMakeFiles/ClanWar.dir/Bataille_PC.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Bataille_PC.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Bataille_PC.cpp -o CMakeFiles/ClanWar.dir/Bataille_PC.cpp.s
+CMakeFiles/ClanWar.dir/source/Shield.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/source/Shield.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/source/Shield.cpp -o CMakeFiles/ClanWar.dir/source/Shield.cpp.s
 
-CMakeFiles/ClanWar.dir/Bataille_user.cpp.o: CMakeFiles/ClanWar.dir/flags.make
-CMakeFiles/ClanWar.dir/Bataille_user.cpp.o: /home/medhk/Desktop/Clan-war/Bataille_user.cpp
-CMakeFiles/ClanWar.dir/Bataille_user.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ClanWar.dir/Bataille_user.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/Bataille_user.cpp.o -MF CMakeFiles/ClanWar.dir/Bataille_user.cpp.o.d -o CMakeFiles/ClanWar.dir/Bataille_user.cpp.o -c /home/medhk/Desktop/Clan-war/Bataille_user.cpp
+CMakeFiles/ClanWar.dir/source/Sword.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/source/Sword.cpp.o: /home/medhk/Desktop/Clan-war/source/Sword.cpp
+CMakeFiles/ClanWar.dir/source/Sword.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/ClanWar.dir/source/Sword.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/source/Sword.cpp.o -MF CMakeFiles/ClanWar.dir/source/Sword.cpp.o.d -o CMakeFiles/ClanWar.dir/source/Sword.cpp.o -c /home/medhk/Desktop/Clan-war/source/Sword.cpp
 
-CMakeFiles/ClanWar.dir/Bataille_user.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/Bataille_user.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/Bataille_user.cpp > CMakeFiles/ClanWar.dir/Bataille_user.cpp.i
+CMakeFiles/ClanWar.dir/source/Sword.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/source/Sword.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/source/Sword.cpp > CMakeFiles/ClanWar.dir/source/Sword.cpp.i
 
-CMakeFiles/ClanWar.dir/Bataille_user.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/Bataille_user.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/Bataille_user.cpp -o CMakeFiles/ClanWar.dir/Bataille_user.cpp.s
+CMakeFiles/ClanWar.dir/source/Sword.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/source/Sword.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/source/Sword.cpp -o CMakeFiles/ClanWar.dir/source/Sword.cpp.s
+
+CMakeFiles/ClanWar.dir/source/Viking.cpp.o: CMakeFiles/ClanWar.dir/flags.make
+CMakeFiles/ClanWar.dir/source/Viking.cpp.o: /home/medhk/Desktop/Clan-war/source/Viking.cpp
+CMakeFiles/ClanWar.dir/source/Viking.cpp.o: CMakeFiles/ClanWar.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/ClanWar.dir/source/Viking.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ClanWar.dir/source/Viking.cpp.o -MF CMakeFiles/ClanWar.dir/source/Viking.cpp.o.d -o CMakeFiles/ClanWar.dir/source/Viking.cpp.o -c /home/medhk/Desktop/Clan-war/source/Viking.cpp
+
+CMakeFiles/ClanWar.dir/source/Viking.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ClanWar.dir/source/Viking.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/medhk/Desktop/Clan-war/source/Viking.cpp > CMakeFiles/ClanWar.dir/source/Viking.cpp.i
+
+CMakeFiles/ClanWar.dir/source/Viking.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ClanWar.dir/source/Viking.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/medhk/Desktop/Clan-war/source/Viking.cpp -o CMakeFiles/ClanWar.dir/source/Viking.cpp.s
 
 # Object files for target ClanWar
 ClanWar_OBJECTS = \
 "CMakeFiles/ClanWar.dir/main.cpp.o" \
-"CMakeFiles/ClanWar.dir/Clan.cpp.o" \
-"CMakeFiles/ClanWar.dir/Arme.cpp.o" \
-"CMakeFiles/ClanWar.dir/Magic_wand.cpp.o" \
-"CMakeFiles/ClanWar.dir/Shield.cpp.o" \
-"CMakeFiles/ClanWar.dir/Sword.cpp.o" \
-"CMakeFiles/ClanWar.dir/Axe.cpp.o" \
-"CMakeFiles/ClanWar.dir/Guerrier.cpp.o" \
-"CMakeFiles/ClanWar.dir/Arab.cpp.o" \
-"CMakeFiles/ClanWar.dir/Persian.cpp.o" \
-"CMakeFiles/ClanWar.dir/Pirate.cpp.o" \
-"CMakeFiles/ClanWar.dir/Viking.cpp.o" \
-"CMakeFiles/ClanWar.dir/Bataille.cpp.o" \
-"CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o" \
-"CMakeFiles/ClanWar.dir/Bataille_user.cpp.o"
+"CMakeFiles/ClanWar.dir/source/Arab.cpp.o" \
+"CMakeFiles/ClanWar.dir/source/Arme.cpp.o" \
+"CMakeFiles/ClanWar.dir/source/Axe.cpp.o" \
+"CMakeFiles/ClanWar.dir/source/Bataille.cpp.o" \
+"CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.o" \
+"CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.o" \
+"CMakeFiles/ClanWar.dir/source/Clan.cpp.o" \
+"CMakeFiles/ClanWar.dir/source/ClanWar.cpp.o" \
+"CMakeFiles/ClanWar.dir/source/Guerrier.cpp.o" \
+"CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.o" \
+"CMakeFiles/ClanWar.dir/source/Persian.cpp.o" \
+"CMakeFiles/ClanWar.dir/source/Pirate.cpp.o" \
+"CMakeFiles/ClanWar.dir/source/Shield.cpp.o" \
+"CMakeFiles/ClanWar.dir/source/Sword.cpp.o" \
+"CMakeFiles/ClanWar.dir/source/Viking.cpp.o"
 
 # External object files for target ClanWar
 ClanWar_EXTERNAL_OBJECTS =
 
 ClanWar: CMakeFiles/ClanWar.dir/main.cpp.o
-ClanWar: CMakeFiles/ClanWar.dir/Clan.cpp.o
-ClanWar: CMakeFiles/ClanWar.dir/Arme.cpp.o
-ClanWar: CMakeFiles/ClanWar.dir/Magic_wand.cpp.o
-ClanWar: CMakeFiles/ClanWar.dir/Shield.cpp.o
-ClanWar: CMakeFiles/ClanWar.dir/Sword.cpp.o
-ClanWar: CMakeFiles/ClanWar.dir/Axe.cpp.o
-ClanWar: CMakeFiles/ClanWar.dir/Guerrier.cpp.o
-ClanWar: CMakeFiles/ClanWar.dir/Arab.cpp.o
-ClanWar: CMakeFiles/ClanWar.dir/Persian.cpp.o
-ClanWar: CMakeFiles/ClanWar.dir/Pirate.cpp.o
-ClanWar: CMakeFiles/ClanWar.dir/Viking.cpp.o
-ClanWar: CMakeFiles/ClanWar.dir/Bataille.cpp.o
-ClanWar: CMakeFiles/ClanWar.dir/Bataille_PC.cpp.o
-ClanWar: CMakeFiles/ClanWar.dir/Bataille_user.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/source/Arab.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/source/Arme.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/source/Axe.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/source/Bataille.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/source/Bataille_PC.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/source/Bataille_user.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/source/Clan.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/source/ClanWar.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/source/Guerrier.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/source/Magic_wand.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/source/Persian.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/source/Pirate.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/source/Shield.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/source/Sword.cpp.o
+ClanWar: CMakeFiles/ClanWar.dir/source/Viking.cpp.o
 ClanWar: CMakeFiles/ClanWar.dir/build.make
 ClanWar: CMakeFiles/ClanWar.dir/compiler_depend.ts
 ClanWar: CMakeFiles/ClanWar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable ClanWar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/medhk/Desktop/Clan-war/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable ClanWar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ClanWar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

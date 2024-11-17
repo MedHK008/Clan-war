@@ -7,6 +7,7 @@
 #include "Shield.h"
 #include "Axe.h"
 #include "Magic_wand.h"
+#include "Difficulty.h"
 
 using namespace std;
 
@@ -31,5 +32,6 @@ public:
     void addArme(Arme* arme);
     bool checkName(string name);
     bool checkHealth();
+    void DifficultyEffect(Nv_difficulte Niveau);
     void showGuerrier() const;
 };;

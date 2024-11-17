@@ -19,5 +19,6 @@ public:
     void RemoveGuerrier(const string& name);
     void showClan() const;
     const vector<Guerrier>& getGuerriers() const;
+    void ApplyDifficulty(Nv_difficulte Niveau);
     Guerrier& getGuerrier(int index);
 };

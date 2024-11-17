@@ -48,16 +48,12 @@ void Bataille_PC::choisirNiveau()
 void Bataille_PC::afficher() const
 {
 	std::cout << "Niveau de difficulte: " << Niveau << std::endl;
+    std::cout << "Nombre de guerriers: " << numGuerriers << std::endl;
 	Bataille::afficher();
 }
 
-void Bataille_PC::creer_clan() {
-    
-}
-
-void Bataille_PC::creer_clan_Pc(int numGuerriers) {
+void Bataille_PC::creer_clan_Pc() {
 	clan2 = new Clan("Machine Clan");
-
 	for (int i = 0; i < numGuerriers; ++i) {
 		int guerrierType = rand() % 4 + 1;
 
@@ -106,17 +102,16 @@ void Bataille_PC::creer_clan_Pc(int numGuerriers) {
 		guerrier->addArme(arme);
 		clan2->AddGuerrier(*guerrier);
 	}
-
+    clan2->ApplyDifficulty(Niveau);
 	clan2->showClan();
 }
 
-int Bataille_PC::creer_clan_user() {
+void Bataille_PC::creer_clan_user() {
     string clanName;
     cout << "Enter the name of your clan: ";
     cin >> clanName;
     clan1 = new Clan(clanName);
 
-    int numGuerriers;
     cout << "Enter the number of Guerriers: ";
     cin >> numGuerriers;
 
@@ -174,14 +169,13 @@ int Bataille_PC::creer_clan_user() {
     }
 
     clan1->showClan();
-	return numGuerriers;
 }
 
 void Bataille_PC::jouer()
 {
     choisirNiveau();
-    int numGuerriers = creer_clan_user();
-    creer_clan_Pc(numGuerriers);
+    creer_clan_user();
+    creer_clan_Pc();
 
     float hit;
     while (clan1->getGuerriers().size() > 0 && clan2->getGuerriers().size() > 0) {

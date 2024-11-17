@@ -6,6 +6,7 @@ Bataille::Bataille(int type) : type_jeu(type)
 
 Bataille::~Bataille()
 {
+	std::cout << "Fin de la bataille" << std::endl;
 }
 
 void Bataille::afficher() const
@@ -16,11 +17,3 @@ void Bataille::afficher() const
 		std::cout << "Type de jeu: UN vs UN" << std::endl;
 }
 
-
-
-
-
-void Bataille::jouer()
-{
-
-}
