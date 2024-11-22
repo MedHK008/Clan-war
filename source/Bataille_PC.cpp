@@ -16,6 +16,8 @@ Bataille_PC::Bataille_PC() :Bataille(0)
 
 Bataille_PC::~Bataille_PC()
 {
+	delete clan1;
+	delete clan2;
 }
 
 void Bataille_PC::choisirNiveau()
@@ -218,4 +220,5 @@ void Bataille_PC::jouer()
     } else {
         cout << "Machine clan wins!" << endl;
     }
+
 }

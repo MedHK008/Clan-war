@@ -19,6 +19,8 @@ Bataille_user::Bataille_user():Bataille(1)
 
 Bataille_user::~Bataille_user()
 {
+    delete clan1;
+    delete clan2;
 }
 
 void Bataille_user::creer_clan_user()
