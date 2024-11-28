@@ -35,3 +35,6 @@ public:
     void DifficultyEffect(Nv_difficulte Niveau);
     void showGuerrier() const;
 };;
+
+
+

@@ -1,100 +1,147 @@
-@startuml ClassDiagram
-
+@startuml
 skinparam classAttributeIconSize 0
 
-class Guerrier{
-#String Name
-#Float Health
-#Float Power
-#Float Attack
-#Float Resistance
-#Float Vitesse 
-+Guerrier()
-+CalculatePower()
-+getHit(int hit)
-+Hit()
-+ChooseArm()
-#armEffect()
+
+class Bataille {
+    - int type_jeu
+    - Clan* clan1
+    - Clan* clan2
+    --
+    + Bataille(int type)
+    + ~Bataille()
+    + void afficher() const
+    + void jouer() // Méthode virtuelle pure
+    + void creer_clan_user() // Méthode virtuelle pure
 }
 
-
-class Viking extends Guerrier{
+class Bataille_user {
+    --
+    + Bataille_user()
+    + ~Bataille_user()
+    + void creer_clan_user() // Redéfinie la méthode virtuelle de Bataille
+    + void afficher() const
+    + void jouer()
+    + Clan* creer_clan(const string& playerName) // Méthode pour créer un clan pour l'utilisateur
+}
+class Bataille_PC {
+    - Nv_difficulte Niveau
+    - int numGuerriers
+    --
+    + Bataille_PC()
+    + ~Bataille_PC()
+    + void choisirNiveau()
+    + void afficher() const
+    + void jouer()
+    + void creer_clan_Pc()
+    + void creer_clan_user() // Redéfinie la méthode virtuelle de Bataille
 }
 
-class Arab extends Guerrier{
+class Guerrier {
+    - string Name
+    - float Health
+    - float Power
+    - float Attack
+    - float Resistance 
+    - float Vitesse
+    - Arme* arme
+    --
+    - void armAEffect()
+    --
+    + Guerrier(string name, float health, float attack, float vitesse)
+    + Guerrier(const Guerrier& guerrier)
+    + Guerrier& operator=(const Guerrier& other)
+    + string getName() const
+    + float CalculatePower()
+    + void getHit(float hit)
+    + float Hit()
+    + void addArme(Arme* arme)
+    + bool checkName(string name) const
+    + bool checkHealth() const
+    + void DifficultyEffect(Nv_difficulte Niveau)
+    + void showGuerrier() const
+}
+class Viking {
+    + Viking()
+    + ~Viking()
 }
 
-class Pirate extends Guerrier{
+class Persian {
+    + Persian()
+    + ~Persian()
 }
 
-class Persian extends Guerrier{
+class Arab {
+    + Arab()
+    + ~Arab()
 }
 
+class Pirate {
+    + Pirate()
+    + ~Pirate()
+}
 class Arme {
-#String Name
-#Float ResistanceEffect
-#Float VitesseEffect
-+Arme()
-+Bool isMagic()
-+float affectHealth(float health);
-+float affectAttack(float attack);
-+float affectResistance(float resistance);
-+float affectVitesse(float vitesse);
+    - string Name
+    - float AttackEffect
+    - float ResistanceEffect
+    - float VitesseEffect
+    - float HealthEffect
+    --
+    + Arme(string name, float attackEffect, float resistanceEffect, float vitesseEffect, float healthEffect)
+    + float affectHealth(float health) const
+    + float affectAttack(float attack) const
+    + float affectResistance(float resistance) const
+    + float affectVitesse(float vitesse) const
+    + bool isMagic() const
+    + void showArme() const
 }
 
-class Shield extends Arme {
+class Axe {
+    + Axe(string name)
 }
 
-class Sword extends Arme {
+class Shield {
+    + Shield(string name)
 }
 
-class Axe extends Arme {
+class Sword {
+    + Sword(string name)
 }
 
-class Magic_wand extends Arme {
-
+class Magic_wand {
+    + Magic_wand(string name)
 }
-
-enum Difficulty{
-  EASY
-  INTERMEDIATE
-  HARD
-}
-
 
 class Clan {
--String Name
--List<Guerrier> Guerriers
--Double Power
-+Clan()
-+CalculatePower()
-+AddGuerrier()
-+RemoveGuerrier()
-+showClan()
+    - string Name
+    - vector<Guerrier> Guerriers
+    - double Power
+    --
+    + Clan(string name)
+    + void CalculatePower()
+    + void AddGuerrier(const Guerrier& guerrier)
+    + void RemoveGuerrier(const string& name)
+    + void showClan() const
+    + const vector<Guerrier>& getGuerriers() const
+    + int sizeOfClan() const
+    + void ApplyDifficulty(Nv_difficulte Niveau)
+    + Guerrier& getGuerrier(int index)
 }
 
-abstract class Bataille{
--Boolean typeJeu
-#Clan clan1
-#Clan clan2
-+Bataille()
-+CreateClan()
-+Play()
-}
+Bataille "1" *-- "2" Clan 
+Bataille_PC -|> Bataille 
+Clan "1" -- "*" Guerrier : contains
 
-class Bataille2Perso extends Bataille{
--CreateClans(String Name)
-}
+Bataille_user -|> Bataille  
 
-class BatailleVSpc extends Bataille{
--Difficulty NiveauDifficulte
--int NumGuerrier
-+ChooseDifficulty()
-+CreatePcClan()
-}
+Axe --|> Arme
+Shield --|> Arme
+Sword --|> Arme
+Magic_wand --|> Arme
+Guerrier "*" *-- "1" Arme
+Viking --|> Guerrier
+Persian --|> Guerrier
+Arab --|> Guerrier
+Pirate --|> Guerrier
 
-Guerrier "1" --* "*" Clan 
-Guerrier"*" o-- "1" Arme 
-Bataille "*" -- "2" Clan
 
 @enduml

@@ -1,12 +1,3 @@
-// #include "ClanWar.h"
-//
-// int main()
-// {
-//     ClanWar game;
-//     game.displayMenu();
-// }
-//
-
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
@@ -38,6 +29,3 @@ int main() {
         window.draw(title);
         window.display();
     }
-
-    return 0;
-}
